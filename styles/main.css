@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    margin: 30px auto;
+    background-color: rgb(254, 252, 241);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(86, 151, 155);
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: rgba(86, 152, 155, 0.797);
+}
+
+.kate{
+    font-weight: bolder;
+    color: black;
+}
+
+.top-bar>p{
+    color: rgb(86, 151, 155);
+}
+
+.about-area{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+    margin: 135px 0 230px;
+}
+
+.about-area>img{
+    width: 400px;
+    grid-column: 2/4;
+    margin: 40px 0;
+    animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
+}
+
+/* Keyframes animation for fadeIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Slide in from 20px below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Slide to its original position */
+    }
+}
+
+.about-me{
+    width: 400px;
+    grid-column: 4/6;
+}
+
+.about-me>h1{
+    font-size: 50px;
+}
+
+.about-me>h3{
+    color: rgb(86, 151, 155);
+}
+
+.about-me>p{
+    opacity: 0; /* Initially hide the paragraph */
+    animation: slideIn 1s ease forwards; /* Apply the slideIn animation */
+}
+
+/* Keyframes for slideIn animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(50px); /* Slide in from right */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Slide to its original position */
+    }
+}
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 230px;
+}
+
+.title{
+    color: rgb(86, 151, 155);
+    font-weight: bold;
+}
+
+.slashes{
+    color: rgb(86, 151, 155);
+}
+
+.buttons>a>img{
+    width: 180px;
+    padding: 10px;
+    transition: transform 0.3s ease; /* Add transition effect to transform property */
+}
+
+.buttons>a>img:hover{
+    transform: translateY(-5px); /* Move the link 5px upwards on hover */
+}
+
+.google-ux{
+    margin: -35px 0 20px;
+}
+
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright{
+    margin-top: 25px;
+}
+
+.footer-area>p>a>img{
+    width: 25px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 899px){
+    .top-bar, .about-area, .footer-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-area{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    .resume{
+        margin-top: -60px;
+    }
+}
+
+@media screen and (max-width: 869px){
+    .top-bar, .footer-area{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 609px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons>span{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 459px){
+    .about-area>img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 419px){
+    .about-me{
+        width: 350px;
+    }
+
+    .resume{
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,77 @@
+.gallery-area{
+    margin: 50px auto;
+}
+
+.gallery-area>h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.photo-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+}
+
+.photo>img{
+    width: 100%;
+    border-radius: 25px;
+    border: 3px solid black;
+    animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
+}
+
+.image-caption{
+    text-align: center;
+    margin: 15px 0 20px;
+    animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
+}
+
+/* Responsive design */
+@media screen and (max-width: 1099px){
+    .photo-area{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1029px){
+    .photo-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 949px){
+    .photo>img{
+        width: 550px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .photo>img{
+        width: 500px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 549px){
+    .photo>img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .photo>img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 449px){
+    .photo>img{
+        width: 350px;
+        margin-right: 5px;
+    }
+}
+
