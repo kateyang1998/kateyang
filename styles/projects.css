@@ -15,40 +15,90 @@
     margin-bottom: 50px;
 }
 
-.prototype{
+/* New project layout matching resume page */
+.project-item {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-bottom: 50px;
+    grid-template-columns: 80px 300px 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(86, 151, 155, 0.2);
+    opacity: 0;
+    animation: slideInResume 0.8s ease forwards;
 }
 
-.number{
-    grid-column: 1/2;
-    font-size: x-large;
-    font-weight: bolder;
+.project-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.prototype>.project-info{
-    grid-column: 2/4;
+.project-number .number {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(86, 151, 155);
 }
 
-.project-info>a{
-    font-size: x-large;
-    font-weight: bolder;
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.project-info>p{
-    margin-top: 50px;
-    opacity: 0; /* Initially hide the paragraph */
-    animation: slideIn 1s ease forwards; /* Apply the slideIn animation */
+.project-info .title {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(86, 151, 155);
 }
 
-.prototype>img{
-    width: 550px;
-    grid-column: 4/6;
-    margin-left: 85px;
-    border-radius: 25px;
-    border: 3px solid black;
-    animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
+.project-info .project-type {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.project-info .collaboration {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+}
+
+.project-details {
+    line-height: 1.6;
+    color: #333;
+}
+
+.project-image {
+    margin-top: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    border: 2px solid rgba(86, 151, 155, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Animation delays for staggered effect */
+.project-item:nth-child(1) { animation-delay: 0.1s; }
+.project-item:nth-child(2) { animation-delay: 0.2s; }
+.project-item:nth-child(3) { animation-delay: 0.3s; }
+.project-item:nth-child(4) { animation-delay: 0.4s; }
+.project-item:nth-child(5) { animation-delay: 0.5s; }
+.project-item:nth-child(6) { animation-delay: 0.6s; }
+.project-item:nth-child(7) { animation-delay: 0.7s; }
+.project-item:nth-child(8) { animation-delay: 0.8s; }
+
+/* Project page section headings animation */
+.projects-area h1, .projects-area h2 {
+    opacity: 0;
+    animation: fadeInResume 1s ease forwards;
 }
 
 .graphic-projects{
@@ -121,44 +171,58 @@
 }
 
 @media screen and (max-width: 949px){
-    .prototype, .graphic-designs{
+    .project-item {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        text-align: left;
+    }
+    
+    .project-number {
+        justify-content: flex-start;
+    }
+    
+    .project-info .title {
+        font-size: 16px;
+    }
+    
+    .project-image img {
+        max-width: 100%;
+    }
+    
+    .graphic-designs{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .prototype>.project-info{
-        margin: 50px 0;
-    }
-
-    .prototype>img, .design>img{
+    .design>img{
         width: 550px;
         margin-left: 20px;
     }
 }
 
 @media screen and (max-width: 699px){
-    .prototype>img, .design>img{
+    .design>img{
         width: 500px;
         margin-left: 5px;
     }
 }
 
 @media screen and (max-width: 549px){
-    .prototype>img, .design>img{
+    .design>img{
         width: 450px;
     }
 }
 
 @media screen and (max-width: 499px){
-    .prototype>img, .design>img{
+    .design>img{
         width: 400px;
     }
 }
 
 @media screen and (max-width: 449px){
-    .prototype>img, .design>img{
+    .design>img{
         width: 350px;
         margin-right: 5px;
     }
