@@ -1,77 +1,115 @@
 .gallery-area{
     margin: 50px auto;
+    width: 95%;
 }
 
 .gallery-area>h1{
     text-align: center;
     margin-bottom: 80px;
+    opacity: 0;
+    animation: fadeInResume 1s ease forwards;
 }
 
 .photo-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 50px;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.photo {
+    opacity: 0;
+    animation: slideInResume 0.8s ease forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo:hover {
+    transform: translateY(-10px);
 }
 
 .photo>img{
     width: 100%;
-    border-radius: 25px;
-    border: 3px solid black;
-    animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
+    border-radius: 15px;
+    border: 2px solid rgba(86, 151, 155, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo>img:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .image-caption{
     text-align: center;
     margin: 15px 0 20px;
-    animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
+    color: #666;
+    font-weight: 500;
+    font-size: 14px;
 }
+
+/* Staggered animation delays for gallery items */
+.photo:nth-child(1) { animation-delay: 0.1s; }
+.photo:nth-child(2) { animation-delay: 0.2s; }
+.photo:nth-child(3) { animation-delay: 0.3s; }
+.photo:nth-child(4) { animation-delay: 0.4s; }
+.photo:nth-child(5) { animation-delay: 0.5s; }
+.photo:nth-child(6) { animation-delay: 0.6s; }
+.photo:nth-child(7) { animation-delay: 0.7s; }
+.photo:nth-child(8) { animation-delay: 0.8s; }
+.photo:nth-child(9) { animation-delay: 0.9s; }
+.photo:nth-child(10) { animation-delay: 1.0s; }
+.photo:nth-child(11) { animation-delay: 1.1s; }
+.photo:nth-child(12) { animation-delay: 1.2s; }
+.photo:nth-child(13) { animation-delay: 1.3s; }
+.photo:nth-child(14) { animation-delay: 1.4s; }
+.photo:nth-child(15) { animation-delay: 1.5s; }
+
+/* Continue the pattern for all photos */
+.photo:nth-child(n+16) { animation-delay: calc(1.6s + (n - 16) * 0.1s); }
 
 /* Responsive design */
 @media screen and (max-width: 1099px){
     .photo-area{
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }
 
-@media screen and (max-width: 1029px){
+@media screen and (max-width: 899px){
     .photo-area{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        max-width: 600px;
+        margin: 50px auto;
     }
-}
-
-@media screen and (max-width: 949px){
-    .photo>img{
-        width: 550px;
-        margin-left: 20px;
+    
+    .photo {
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 699px){
-    .photo>img{
-        width: 500px;
-        margin-left: 5px;
+    .gallery-area {
+        width: 90%;
     }
-}
-
-@media screen and (max-width: 549px){
-    .photo>img{
-        width: 450px;
+    
+    .photo-area {
+        margin: 30px auto;
+        gap: 20px;
     }
 }
 
 @media screen and (max-width: 499px){
-    .photo>img{
-        width: 400px;
+    .gallery-area {
+        width: 95%;
     }
-}
-
-@media screen and (max-width: 449px){
-    .photo>img{
-        width: 350px;
-        margin-right: 5px;
+    
+    .photo-area {
+        gap: 15px;
+    }
+    
+    .image-caption {
+        font-size: 12px;
+        margin: 10px 0 15px;
     }
 }
 
