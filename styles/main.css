@@ -199,6 +199,60 @@ a:hover{
     line-height: 1.6;
 }
 
+/* Certificates section styles */
+.certificates {
+    margin: 40px 0;
+}
+
+.certificate-item {
+    display: grid;
+    grid-template-columns: 80px 300px 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(86, 151, 155, 0.2);
+}
+
+.certificate-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.certificate-number .number {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(86, 151, 155);
+}
+
+.certificate-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.certificate-info .title {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(86, 151, 155);
+}
+
+.certificate-info .provider {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.certificate-info .date {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+}
+
+.certificate-details {
+    line-height: 1.6;
+}
+
 /* Mobile menu styles */
 .mobile-menu-toggle {
     display: none;
@@ -298,17 +352,17 @@ a:hover{
     }
     
     /* Resume mobile styles */
-    .experience-item {
+    .experience-item, .certificate-item {
         grid-template-columns: 1fr;
         gap: 15px;
         text-align: left;
     }
     
-    .experience-number {
+    .experience-number, .certificate-number {
         justify-content: flex-start;
     }
     
-    .experience-position .title {
+    .experience-position .title, .certificate-info .title {
         font-size: 16px;
     }
 }
