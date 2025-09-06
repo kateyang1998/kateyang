@@ -122,12 +122,12 @@ Visit the live portfolio at: [https://kateyang1998.github.io/kateyang/](https://
 ### Quick Start
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kateyang1998/kateyang.github.io.git
+   git clone https://github.com/kateyang1998/kateyang.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd kateyang.github.io
+   cd kateyang
    ```
 
 3. Open with a local server (recommended):
@@ -183,4 +183,5 @@ This project is open source and other developers and designers are welcome to us
 
 📧 **Contact**: [kateyangqingru@gmail.com](mailto:kateyangqingru@gmail.com)
 🔗 **LinkedIn**: [linkedin.com/in/kateyangqingru](https://www.linkedin.com/in/kateyangqingru/)
+
 🐙 **GitHub**: [github.com/kateyang1998](https://github.com/kateyang1998)
