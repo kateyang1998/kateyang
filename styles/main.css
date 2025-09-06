@@ -393,6 +393,25 @@ a:hover{
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
+        padding: 15px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .top-bar>p:first-child {
+        font-size: 16px;
+        line-height: 1.2;
+        flex: 1;
+        margin-right: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .mobile-menu-toggle {
+        padding: 8px;
+        margin-left: auto;
+        flex-shrink: 0;
     }
     
     .mobile-menu-toggle {
@@ -583,8 +602,58 @@ a:hover{
     }
 }
 
+/* iPhone 14 Pro and similar sized screens */
+@media screen and (max-width: 393px){
+    .top-bar {
+        padding: 12px 15px;
+    }
+    
+    .top-bar>p:first-child {
+        font-size: 15px;
+        max-width: 250px;
+    }
+    
+    .kate {
+        font-size: 16px !important;
+        font-weight: 700 !important;
+    }
+    
+    .mobile-menu-toggle {
+        padding: 6px;
+    }
+    
+    .mobile-menu-toggle span {
+        width: 22px;
+        height: 2.5px;
+        margin: 2.5px 0;
+    }
+}
+
 /* Mobile small */
-@media screen and (max-width: 419px){
+@media screen and (max-width: 375px){
+    .top-bar {
+        padding: 10px 12px;
+    }
+    
+    .top-bar>p:first-child {
+        font-size: 14px;
+        max-width: 200px;
+    }
+    
+    .kate {
+        font-size: 15px !important;
+    }
+    
+    .mobile-menu-toggle {
+        padding: 5px;
+    }
+    
+    .mobile-menu-toggle span {
+        width: 20px;
+        height: 2px;
+        margin: 2px 0;
+    }
+    
     .about-area{
         width: 100%;
         padding: 10px;
@@ -592,7 +661,7 @@ a:hover{
     }
     
     .about-area>img{
-        width: 220px;
+        width: 200px;
     }
     
     .about-me{
@@ -601,14 +670,38 @@ a:hover{
     }
     
     .about-me>h1{
-        font-size: 26px;
+        font-size: 24px;
     }
     
     .about-me>h3{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .resume{
-        padding: 0 15px;
+        padding: 0 10px;
+    }
+}
+
+/* Very small screens */
+@media screen and (max-width: 320px){
+    .top-bar {
+        padding: 8px 10px;
+    }
+    
+    .top-bar>p:first-child {
+        font-size: 13px;
+        max-width: 180px;
+    }
+    
+    .kate {
+        font-size: 14px !important;
+    }
+    
+    .about-area>img{
+        width: 180px;
+    }
+    
+    .about-me>h1{
+        font-size: 22px;
     }
 }
