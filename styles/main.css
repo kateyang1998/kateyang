@@ -199,6 +199,55 @@ a:hover{
     line-height: 1.6;
 }
 
+/* Skills section styles */
+.skills {
+    margin: 40px 0;
+}
+
+.skill-item {
+    display: grid;
+    grid-template-columns: 80px 300px 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(86, 151, 155, 0.2);
+}
+
+.skill-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.skill-number .number {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(86, 151, 155);
+}
+
+.skill-category {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill-category .title {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(86, 151, 155);
+}
+
+.skill-category .skill-type {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.skill-details {
+    line-height: 1.6;
+    color: #333;
+}
+
 /* Certificates section styles */
 .certificates {
     margin: 40px 0;
@@ -352,17 +401,17 @@ a:hover{
     }
     
     /* Resume mobile styles */
-    .experience-item, .certificate-item {
+    .experience-item, .certificate-item, .skill-item {
         grid-template-columns: 1fr;
         gap: 15px;
         text-align: left;
     }
     
-    .experience-number, .certificate-number {
+    .experience-number, .certificate-number, .skill-number {
         justify-content: flex-start;
     }
     
-    .experience-position .title, .certificate-info .title {
+    .experience-position .title, .certificate-info .title, .skill-category .title {
         font-size: 16px;
     }
 }
