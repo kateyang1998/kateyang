@@ -122,7 +122,7 @@ a:hover{
     transform: translateY(-5px); /* Move the link 5px upwards on hover */
 }
 
-.google-ux{
+.google-ux, .google-ai{
     margin: -35px 0 20px;
 }
 
@@ -138,6 +138,65 @@ a:hover{
 
 .footer-area>p>a>img{
     width: 25px;
+}
+
+/* Resume page styles */
+.resume-area {
+    width: 95%;
+    margin: 40px auto;
+}
+
+.work-experiences {
+    margin: 40px 0;
+}
+
+.experience-item {
+    display: grid;
+    grid-template-columns: 80px 300px 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(86, 151, 155, 0.2);
+}
+
+.experience-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.experience-number .number {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(86, 151, 155);
+}
+
+.experience-position {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-position .title {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(86, 151, 155);
+}
+
+.experience-position .company {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.experience-position .duration {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+}
+
+.experience-details {
+    line-height: 1.6;
 }
 
 /* Mobile menu styles */
@@ -236,6 +295,21 @@ a:hover{
 
     .resume{
         margin-top: -60px;
+    }
+    
+    /* Resume mobile styles */
+    .experience-item {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        text-align: left;
+    }
+    
+    .experience-number {
+        justify-content: flex-start;
+    }
+    
+    .experience-position .title {
+        font-size: 16px;
     }
 }
 

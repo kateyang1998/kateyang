@@ -1,17 +1,17 @@
-.projects-area{
+.projects-area, .resume-area{
     margin: 50px auto;
 }
 
-.projects-area>h1{
+.projects-area>h1, .resume-area>h1{
     text-align: center;
     margin-bottom: 80px;
 }
 
-.ux-projects{
+.ux-projects, .work-experiences{
     margin-top: 50px;
 }
 
-.ux-projects>h2{
+.ux-projects>h2, .work-experiences>h2{
     margin-bottom: 50px;
 }
 
