@@ -36,6 +36,15 @@ a:hover{
 
 .top-bar>p{
     color: rgb(86, 151, 155);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-bar-logo {
+    height: 28px;
+    width: auto;
+    vertical-align: middle;
 }
 
 .about-area{
@@ -130,6 +139,29 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    order: 2;
+}
+
+.footer-logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.copyright {
+    order: 1;
+}
+
+.footer-area > p:last-child {
+    order: 3;
 }
 
 .copyright{
@@ -489,6 +521,27 @@ a:hover{
         text-align: center;
         gap: 20px;
     }
+    
+    .footer-logo {
+        order: 0;
+        flex: none;
+    }
+    
+    .copyright {
+        order: 1;
+    }
+    
+    .footer-area > p:last-child {
+        order: 2;
+    }
+    
+    .top-bar-logo {
+        height: 24px;
+    }
+    
+    .footer-logo-img {
+        height: 35px;
+    }
 
     .resume{
         margin-top: -60px;
@@ -576,6 +629,14 @@ a:hover{
     .buttons>span{
         display: none;
     }
+    
+    .top-bar-logo {
+        height: 22px;
+    }
+    
+    .footer-logo-img {
+        height: 32px;
+    }
 }
 
 /* Mobile medium */
@@ -599,6 +660,14 @@ a:hover{
     
     .footer-area>p{
         font-size: 14px;
+    }
+    
+    .top-bar-logo {
+        height: 20px;
+    }
+    
+    .footer-logo-img {
+        height: 28px;
     }
 }
 
@@ -626,6 +695,14 @@ a:hover{
         width: 22px;
         height: 2.5px;
         margin: 2.5px 0;
+    }
+    
+    .top-bar-logo {
+        height: 18px;
+    }
+    
+    .footer-logo-img {
+        height: 26px;
     }
 }
 
@@ -680,6 +757,14 @@ a:hover{
     .resume{
         padding: 0 10px;
     }
+    
+    .top-bar-logo {
+        height: 16px;
+    }
+    
+    .footer-logo-img {
+        height: 24px;
+    }
 }
 
 /* Very small screens */
@@ -703,5 +788,13 @@ a:hover{
     
     .about-me>h1{
         font-size: 22px;
+    }
+    
+    .top-bar-logo {
+        height: 14px;
+    }
+    
+    .footer-logo-img {
+        height: 22px;
     }
 }
