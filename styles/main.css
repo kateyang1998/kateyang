@@ -50,9 +50,10 @@ a:hover{
 .about-area{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     column-gap: 30px;
     margin: 135px 0 230px;
+    justify-items: center;
 }
 
 .about-area>img{
@@ -75,8 +76,9 @@ a:hover{
 }
 
 .about-me{
-    width: 400px;
-    grid-column: 4/6;
+    width: 450px;
+    grid-column: 5/8;
+    margin: 0;
 }
 
 .about-me>h1{
