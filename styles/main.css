@@ -51,7 +51,6 @@ a:hover{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    column-gap: 30px;
     margin: 135px 0 230px;
     justify-items: center;
 }
@@ -76,7 +75,7 @@ a:hover{
 }
 
 .about-me{
-    width: 450px;
+    width: 500px;
     grid-column: 5/8;
     margin: 0;
 }
