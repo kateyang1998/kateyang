@@ -35,4 +35,12 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
+
+    // Open case study page
+    document.querySelectorAll(".case-study-btn").forEach(btn => {
+        btn.addEventListener("click", function() {
+            const page = this.getAttribute("data-page");
+            window.open("case-study-pages/" + page, "_blank");
+        });
+    });
 });
