@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-design YouTube Music Mobile App</title>
+    <link rel="icon" href="../images/logo2.png">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/case-study.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <section class="top-bar">
+        <p>
+            <img src="../images/logo2.png" alt="Kate Yang Logo" class="top-bar-logo">
+            <a href="https://kateyang1998.github.io/kateyang/"><span class="kate">Kate Yang</span></a>
+            &nbsp;&nbsp;&nbsp;Software Developer / UX Designer
+        </p>
+        
+        <!-- Mobile hamburger menu button -->
+        <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <!-- Navigation menu -->
+        <nav class="nav-menu">
+            <a data-auto-recognition="true" href="mailto:kateyangqingru@gmail.com">Email Me</a>
+            <span class="nav-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="../resume.html">Resume</a>
+            <span class="nav-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="../projects.html">Projects</a>
+            <span class="nav-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="../gallery.html">Gallery</a>
+        </nav>
+    </section>
+
+    <!-- Case Study Hero Section -->
+    <section class="case-study-hero">
+        <div class="hero-content">
+            <h1>Re-design YouTube Music Mobile App</h1>
+            <p class="hero-subtitle">UX Design • Team Project (4 members)</p>
+            <div class="hero-image">
+                <img src="../images/youtubemusic.jpg" alt="YouTube Music App Redesign">
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Content -->
+    <div class="case-study-container">
+        
+        <!-- Project Overview -->
+        <section class="case-study-section">
+            <h2>Project Overview</h2>
+            <div class="section-content">
+                <p>This project involved redesigning the YouTube Music mobile app to improve user experience based on comprehensive research and usability testing. Working with a team of 4 members, we conducted quantitative and qualitative research to identify pain points and created a more intuitive interface.</p>
+                
+                <div class="project-details-grid">
+                    <div class="detail-item">
+                        <h4>Duration</h4>
+                        <p>12 weeks</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Team</h4>
+                        <p>Kate Yang, Jiwoo Lee, Matt Robinson, Zack Clarke</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>My Role</h4>
+                        <p>UX Researcher, Prototype Designer, Usability Tester</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Tools</h4>
+                        <p>Figma, Miro, Google Forms, Zoom</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Empathy Section -->
+        <section class="case-study-section">
+            <h2>Empathy</h2>
+            
+            <div class="empathy-subsection">
+                <h3>Online Survey</h3>
+                <div class="section-content">
+                    <p>We conducted an online survey with 150+ participants to understand user behaviors, preferences, and pain points with music streaming apps.</p>
+                    
+                    <div class="survey-highlights">
+                        <div class="highlight-item">
+                            <span class="stat">78%</span>
+                            <p>Found navigation confusing</p>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="stat">65%</span>
+                            <p>Struggled with playlist creation</p>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="stat">52%</span>
+                            <p>Wanted better music discovery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="empathy-subsection">
+                <h3>Interviews</h3>
+                <div class="section-content">
+                    <p>We conducted in-depth interviews with 12 users to gain deeper insights into their music listening habits and frustrations with existing apps.</p>
+                    
+                    <div class="quote-box">
+                        <blockquote>"I often can't find the songs I want to add to my playlist. The search function doesn't seem to work well."</blockquote>
+                        <cite>- Interview Participant #3</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Define Section -->
+        <section class="case-study-section">
+            <h2>Define</h2>
+            
+            <div class="define-subsection">
+                <h3>User Persona</h3>
+                <div class="section-content">
+                    <div class="persona-card">
+                        <div class="persona-info">
+                            <h4>Sarah Chen</h4>
+                            <p class="persona-title">College Student & Music Enthusiast</p>
+                            <ul class="persona-details">
+                                <li>Age: 21</li>
+                                <li>Location: Toronto, Canada</li>
+                                <li>Device: iPhone 13</li>
+                            </ul>
+                        </div>
+                        <div class="persona-content">
+                            <div class="persona-section">
+                                <h5>Goals</h5>
+                                <ul>
+                                    <li>Quickly find and play music for different moods</li>
+                                    <li>Create and organize playlists easily</li>
+                                    <li>Discover new music similar to her taste</li>
+                                </ul>
+                            </div>
+                            <div class="persona-section">
+                                <h5>Pain Points</h5>
+                                <ul>
+                                    <li>Navigation is confusing and cluttered</li>
+                                    <li>Playlist creation process is too complex</li>
+                                    <li>Search results are not relevant</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Analysis</h3>
+                <div class="section-content">
+                    <p>Based on our research, we identified three main problem areas:</p>
+                    <div class="problem-list">
+                        <div class="problem-item">
+                            <h4>1. Navigation Issues</h4>
+                            <p>Users struggle to find basic features due to poor information architecture</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>2. Playlist Management</h4>
+                            <p>Creating and editing playlists requires too many steps</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>3. Music Discovery</h4>
+                            <p>Recommendation algorithms don't match user preferences effectively</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Statement</h3>
+                <div class="section-content">
+                    <div class="problem-statement-box">
+                        <p><strong>How might we redesign YouTube Music to provide a more intuitive navigation experience and streamlined playlist management for young music enthusiasts?</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ideate Section -->
+        <section class="case-study-section">
+            <h2>Ideate</h2>
+            
+            <div class="section-content">
+                <h3>Sketches</h3>
+                <p>Our team conducted collaborative sketching sessions to explore various solutions for the identified problems. Each team member contributed multiple concepts for key screens.</p>
+                
+                <div class="sketches-grid">
+                    <div class="sketch-item">
+                        <div class="sketch-placeholder">
+                            <p>Navigation Sketches</p>
+                        </div>
+                    </div>
+                    <div class="sketch-item">
+                        <div class="sketch-placeholder">
+                            <p>Playlist Creation Flow</p>
+                        </div>
+                    </div>
+                    <div class="sketch-item">
+                        <div class="sketch-placeholder">
+                            <p>Music Discovery Interface</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section class="case-study-section">
+            <h2>Prototype</h2>
+            
+            <div class="prototype-subsection">
+                <h3>Low-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>Jiwoo created wireframes based on our selected sketches, focusing on information architecture and user flow improvements.</p>
+                    <div class="prototype-image">
+                        <div class="prototype-placeholder">
+                            <p>Low-Fidelity Wireframes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prototype-subsection">
+                <h3>High-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>I developed the high-fidelity prototypes, incorporating YouTube Music's brand guidelines while implementing our UX improvements.</p>
+                    <div class="prototype-image">
+                        <img src="../images/youtubemusic.jpg" alt="High-Fidelity YouTube Music Prototypes">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Test Section -->
+        <section class="case-study-section">
+            <h2>Test</h2>
+            
+            <div class="section-content">
+                <h3>Usability Testing</h3>
+                <p>Kate and Jiwoo conducted multiple rounds of usability testing with the same users to validate our design decisions and iterate on the prototypes.</p>
+                
+                <div class="testing-results">
+                    <div class="test-metric">
+                        <span class="metric-number">95%</span>
+                        <p>Task completion rate</p>
+                    </div>
+                    <div class="test-metric">
+                        <span class="metric-number">40%</span>
+                        <p>Reduction in time to create playlist</p>
+                    </div>
+                    <div class="test-metric">
+                        <span class="metric-number">4.6/5</span>
+                        <p>Average usability score</p>
+                    </div>
+                </div>
+
+                <div class="quote-box">
+                    <blockquote>"This is much easier to use! I can finally create playlists without getting confused."</blockquote>
+                    <cite>- Usability Test Participant</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Solution Section -->
+        <section class="case-study-section">
+            <h2>Final Solution & Design Brief</h2>
+            
+            <div class="section-content">
+                <p>Our final design addresses the core problems through three key improvements:</p>
+                
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <h4>Simplified Navigation</h4>
+                        <p>Redesigned bottom navigation with clear icons and labels, reducing cognitive load</p>
+                    </div>
+                    <div class="solution-item">
+                        <h4>Streamlined Playlist Creation</h4>
+                        <p>Reduced playlist creation from 7 steps to 3 steps with intuitive drag-and-drop functionality</p>
+                    </div>
+                    <div class="solution-item">
+                        <h4>Enhanced Music Discovery</h4>
+                        <p>Improved recommendation engine interface with clear categories and personalized suggestions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflect Section -->
+        <section class="case-study-section">
+            <h2>Reflect</h2>
+            
+            <div class="section-content">
+                <h3>What I Learned</h3>
+                <ul class="reflection-list">
+                    <li>The importance of conducting multiple rounds of usability testing with the same users to track improvement</li>
+                    <li>How collaborative design processes can lead to more innovative solutions</li>
+                    <li>The value of quantitative and qualitative research in informing design decisions</li>
+                </ul>
+
+                <h3>Next Steps</h3>
+                <p>If I were to continue this project, I would focus on:</p>
+                <ul class="reflection-list">
+                    <li>Testing the design with a larger, more diverse user group</li>
+                    <li>Exploring accessibility improvements for users with disabilities</li>
+                    <li>Investigating how the design performs across different device sizes</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="back-to-projects">
+            <a href="../projects.html" class="back-btn">← Back to Projects</a>
+        </section>
+
+    </div>
+
+    <section class="footer-area">
+        <p class="copyright">&copy; Copyright by Kate Yang 2025</p>
+        <div class="footer-logo">
+            <img src="../images/logo2.png" alt="Kate Yang Logo" class="footer-logo-img">
+        </div>
+        <p>
+            <a data-auto-recognition="true" href="mailto:kateyangqingru@gmail.com">kateyangqingru@gmail.com</a>
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="https://www.linkedin.com/in/kateyangqingru/" target="_blank">
+                <img src="../images/linkedin.png">
+            </a>
+            <span>&nbsp;&nbsp;</span>
+            <a href="https://github.com/kateyang1998" target="_blank">
+                <img src="../images/github.png">
+            </a>
+        </p>
+    </section>
+</body>
+</html>
