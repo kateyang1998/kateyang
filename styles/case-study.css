@@ -624,6 +624,102 @@
     color: #333;
 }
 
+/* Final Solution */
+.solution-overview {
+    margin: 30px 0;
+}
+
+.solution-highlight {
+    background-color: rgba(86, 151, 155, 0.05);
+    border: 2px solid rgba(86, 151, 155, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.solution-highlight h3 {
+    font-size: 24px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 15px;
+}
+
+.solution-highlight p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.solution-results {
+    margin: 40px 0;
+}
+
+.solution-results h3 {
+    font-size: 24px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 25px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.result-item {
+    background-color: rgba(86, 151, 155, 0.03);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(86, 151, 155, 0.1);
+}
+
+.result-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(86, 151, 155);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.result-item p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.result-item small {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+.design-principles {
+    margin: 40px 0;
+}
+
+.design-principles h3 {
+    font-size: 24px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 20px;
+}
+
+.principles-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.principles-list li {
+    background-color: rgba(86, 151, 155, 0.03);
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid rgb(86, 151, 155);
+    line-height: 1.6;
+}
+
 /* Solution Grid */
 .solution-grid {
     display: grid;
@@ -637,7 +733,6 @@
     background-color: rgba(86, 151, 155, 0.05);
     border: 2px solid rgba(86, 151, 155, 0.2);
     border-radius: 15px;
-    text-align: center;
 }
 
 .solution-item h4 {
@@ -1053,5 +1148,55 @@
     
     .outcome-highlight p {
         font-size: 16px;
+    }
+    
+    .solution-grid {
+        gap: 12px;
+    }
+    
+    .results-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .solution-item {
+        padding: 16px;
+    }
+    
+    .solution-item h4 {
+        font-size: 1rem;
+    }
+    
+    .result-item {
+        padding: 16px;
+    }
+    
+    .result-value {
+        font-size: 1.8rem;
+    }
+    
+    .result-label {
+        font-size: 0.8rem;
+    }
+}
+
+/* Tablet responsive styles for final solution section */
+@media (max-width: 1024px) {
+    .solution-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .results-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+    }
+    
+    .result-value {
+        font-size: 2rem;
+    }
+    
+    .solution-item {
+        padding: 20px;
     }
 }
