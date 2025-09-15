@@ -164,6 +164,81 @@
     color: #333;
 }
 
+/* Interview Insights */
+.interview-insights {
+    background-color: rgba(86, 151, 155, 0.05);
+    border: 2px solid rgba(86, 151, 155, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.interview-insights h4 {
+    font-size: 24px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgba(86, 151, 155, 0.2);
+    padding-bottom: 10px;
+}
+
+.insights-section {
+    margin-bottom: 30px;
+}
+
+.insights-section:last-child {
+    margin-bottom: 0;
+}
+
+.insights-section h5 {
+    font-size: 20px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.insights-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.insights-list li {
+    background-color: rgba(86, 151, 155, 0.03);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid rgb(86, 151, 155);
+    line-height: 1.6;
+}
+
+.differences-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.difference-category {
+    background-color: rgba(86, 151, 155, 0.03);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(86, 151, 155, 0.1);
+}
+
+.difference-category h6 {
+    font-size: 16px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.difference-category p {
+    margin: 8px 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
 /* Quote Box */
 .quote-box {
     background-color: rgba(86, 151, 155, 0.08);
@@ -681,6 +756,23 @@
     .sketch-caption h4 {
         font-size: 14px;
     }
+    
+    .interview-insights {
+        padding: 20px;
+    }
+    
+    .interview-insights h4 {
+        font-size: 20px;
+    }
+    
+    .differences-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .difference-category {
+        padding: 15px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -753,6 +845,35 @@
     }
     
     .sketch-caption h4 {
+        font-size: 13px;
+    }
+    
+    .interview-insights {
+        padding: 15px;
+    }
+    
+    .interview-insights h4 {
+        font-size: 18px;
+    }
+    
+    .insights-section h5 {
+        font-size: 16px;
+    }
+    
+    .insights-list li {
+        padding: 12px;
+        font-size: 13px;
+    }
+    
+    .difference-category {
+        padding: 12px;
+    }
+    
+    .difference-category h6 {
+        font-size: 14px;
+    }
+    
+    .difference-category p {
         font-size: 13px;
     }
 }
