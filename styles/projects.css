@@ -18,7 +18,7 @@
 /* New project layout matching resume page */
 .project-item {
     display: grid;
-    grid-template-columns: 80px 300px 1fr;
+    grid-template-columns: 80px 1fr;
     gap: 30px;
     margin-bottom: 40px;
     padding: 20px 0;
@@ -39,10 +39,19 @@
     color: rgb(86, 151, 155);
 }
 
+/* Project content container */
+.project-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
 .project-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1;
+    min-width: 300px;
 }
 
 .project-info .case-study-btn {
@@ -68,26 +77,20 @@
     font-style: italic;
 }
 
-.project-details {
+.project-text {
+    margin-top: 15px;
     line-height: 1.6;
     color: #333;
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-}
-
-.project-text {
-    flex: 1;
 }
 
 .project-image {
     flex-shrink: 0;
-    width: 380px;
+    width: 600px;
 }
 
 .project-image img {
     width: 100%;
-    max-width: 380px;
+    height: auto;
     border-radius: 15px;
     border: 2px solid rgba(86, 151, 155, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -225,13 +228,19 @@
         font-size: 16px;
     }
     
-    .project-details {
+    .project-content {
         flex-direction: column;
         gap: 20px;
     }
     
+    .project-info {
+        min-width: auto;
+    }
+    
     .project-image {
         width: 100%;
+        max-width: 600px;
+        align-self: center;
     }
     
     .project-image img {
