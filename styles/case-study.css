@@ -113,7 +113,7 @@
 /* Project Details Grid */
 .project-details-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 30px;
     margin: 40px 0;
     padding: 30px;
@@ -290,10 +290,10 @@
 }
 
 .persona-image img {
-    width: 400px;
+    width: 550px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px rgba(0, 0, 0, 0.1);
 }
 
 .persona-content {
@@ -831,7 +831,7 @@
     }
     
     .persona-image img {
-        width: 400px;
+        width: 550px;
         height: auto;
         border-radius: 10px;
     }
@@ -846,7 +846,7 @@
 /* Standard Tablet and iPad layout */
 @media screen and (max-width: 1024px) {
     .persona-image img {
-        width: 350px;
+        width: 500px;
         height: auto;
     }
 }
@@ -949,7 +949,7 @@
     }
     
     .persona-image img {
-        width: 300px;
+        width: 350px;
         height: auto;
         border-radius: 8px;
     }
@@ -1057,7 +1057,7 @@
     }
     
     .persona-image img {
-        width: 250px;
+        width: 300px;
         height: auto;
         border-radius: 6px;
     }
