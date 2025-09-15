@@ -302,7 +302,7 @@
     color: rgb(254, 252, 241);
     padding: 30px;
     border-radius: 15px;
-    text-align: center;
+    /* text-align: center; */
     margin: 30px 0;
 }
 
@@ -315,16 +315,42 @@
 /* Sketches Grid */
 .sketches-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     gap: 30px;
     margin: 40px 0;
 }
 
 .sketch-item {
     text-align: center;
+    background-color: rgba(86, 151, 155, 0.03);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.sketch-placeholder, .prototype-placeholder {
+.sketch-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(86, 151, 155, 0.15);
+}
+
+.sketch-image {
+    margin-bottom: 15px;
+}
+
+.sketch-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sketch-caption {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.sketch-placehoder, .prototype-placeholder {
     background-color: rgba(86, 151, 155, 0.1);
     border: 2px dashed rgba(86, 151, 155, 0.4);
     border-radius: 10px;
@@ -471,6 +497,45 @@
 }
 
 /* Responsive Design */
+/* Large Tablet and iPad Pro layout */
+@media screen and (max-width: 1366px) {
+    .persona-card {
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px;
+    }
+    
+    .persona-details-wrapper {
+        order: 1;
+    }
+    
+    .persona-image {
+        order: 0;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    .persona-image img {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .persona-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Standard Tablet and iPad layout */
+@media screen and (max-width: 1024px) {
+    .persona-image img {
+        width: 350px;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 949px) {
     .case-study-hero h1 {
         font-size: 36px;
@@ -506,8 +571,16 @@
     }
     
     .sketches-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
+    }
+    
+    .sketch-item {
+        padding: 15px;
+    }
+    
+    .sketch-caption h4 {
+        font-size: 14px;
     }
 }
 
@@ -595,6 +668,19 @@
     .solution-item {
         padding: 20px;
     }
+    
+    .sketches-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .sketch-item {
+        padding: 15px;
+    }
+    
+    .sketch-caption h4 {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -660,5 +746,13 @@
     
     .problem-statement-box p {
         font-size: 16px;
+    }
+    
+    .sketch-item {
+        padding: 12px;
+    }
+    
+    .sketch-caption h4 {
+        font-size: 13px;
     }
 }
