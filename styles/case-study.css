@@ -449,6 +449,151 @@
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
+/* Usability Testing */
+.usability-testing {
+    background-color: rgba(86, 151, 155, 0.02);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.test-tasks {
+    margin-bottom: 40px;
+}
+
+.test-tasks h4 {
+    font-size: 22px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(86, 151, 155, 0.2);
+    padding-bottom: 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-list li {
+    background-color: rgba(86, 151, 155, 0.05);
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border-left: 4px solid rgb(86, 151, 155);
+    line-height: 1.6;
+}
+
+.test-analysis h4 {
+    font-size: 22px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgba(86, 151, 155, 0.2);
+    padding-bottom: 10px;
+}
+
+.findings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.finding-item {
+    background-color: rgba(86, 151, 155, 0.03);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(86, 151, 155, 0.1);
+}
+
+.finding-item h5 {
+    font-size: 18px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.finding-item p {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.key-issues, .design-improvements {
+    margin: 30px 0;
+}
+
+.key-issues h4, .design-improvements h4 {
+    font-size: 20px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 15px;
+}
+
+.issues-list, .improvements-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.issues-list li, .improvements-list li {
+    background-color: rgba(86, 151, 155, 0.05);
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border-left: 3px solid rgb(86, 151, 155);
+}
+
+/* Test Outcome */
+.test-outcome {
+    background-color: rgba(86, 151, 155, 0.02);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.outcome-content h4 {
+    font-size: 22px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 15px;
+}
+
+.outcome-highlight {
+    background-color: rgba(86, 151, 155, 0.08);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.outcome-highlight p {
+    font-size: 18px;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.outcome-summary {
+    margin-top: 25px;
+}
+
+.outcome-summary h5 {
+    font-size: 18px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 15px;
+}
+
+.outcome-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.outcome-summary li {
+    background-color: rgba(86, 151, 155, 0.05);
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border-left: 3px solid rgb(86, 151, 155);
+}
+
 /* Testing Results */
 .testing-results {
     display: grid;
@@ -875,5 +1020,38 @@
     
     .difference-category p {
         font-size: 13px;
+    }
+    
+    .usability-testing {
+        padding: 20px;
+    }
+    
+    .test-tasks h4, .test-analysis h4 {
+        font-size: 18px;
+    }
+    
+    .findings-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .finding-item {
+        padding: 15px;
+    }
+    
+    .finding-item h5 {
+        font-size: 16px;
+    }
+    
+    .test-outcome {
+        padding: 20px;
+    }
+    
+    .outcome-content h4 {
+        font-size: 18px;
+    }
+    
+    .outcome-highlight p {
+        font-size: 16px;
     }
 }
