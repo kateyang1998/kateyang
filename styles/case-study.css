@@ -1178,6 +1178,28 @@
     .result-label {
         font-size: 0.8rem;
     }
+    
+    .empathy-map-image {
+        width: 300px;
+    }
+}
+
+/* Empathy Map Styles */
+.empathy-map-container {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(86, 151, 155, 0.05);
+    border-radius: 15px;
+    border: 1px solid rgba(86, 151, 155, 0.2);
+}
+
+.empathy-map-image {
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Tablet responsive styles for final solution section */
@@ -1198,5 +1220,9 @@
     
     .solution-item {
         padding: 20px;
+    }
+    
+    .empathy-map-image {
+        width: 600px;
     }
 }
