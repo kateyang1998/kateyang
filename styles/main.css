@@ -57,7 +57,7 @@ a:hover{
 .about-area{
     width: 100%;
     max-width: 1000px;
-    margin: 120px auto 200px;
+    margin: 120px auto 100px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     column-gap: 15px;
@@ -284,7 +284,7 @@ body {
 /* Resume page styles */
 .resume-area {
     width: 95%;
-    margin: 40px auto;
+    margin: 40px auto 80px;
 }
 
 .work-experiences {
@@ -687,7 +687,7 @@ body {
 /* Tablet landscape */
 @media screen and (max-width: 1024px){
     .about-area{
-        margin: 90px auto 160px;
+        margin: 90px auto 80px;
         column-gap: 15px;
         padding: 0 15px;
     }
@@ -723,7 +723,7 @@ body {
     }
     
     .about-area{
-        margin: 60px auto 120px;
+        margin: 60px auto 60px;
         width: 100%;
         max-width: 95%;
         padding: 0 15px;
@@ -741,7 +741,7 @@ body {
 /* Mobile large */
 @media screen and (max-width: 609px){
     .about-area{
-        margin: 40px auto 100px;
+        margin: 40px auto 50px;
         width: 100%;
         max-width: 95%;
         padding: 15px;
@@ -799,7 +799,7 @@ body {
 /* Mobile medium */
 @media screen and (max-width: 459px){
     .about-area{
-        margin: 30px auto 80px;
+        margin: 30px auto 40px;
         width: 100%;
         max-width: 95%;
         gap: 25px;
