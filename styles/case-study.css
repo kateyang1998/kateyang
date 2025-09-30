@@ -1,5 +1,127 @@
 /* Case Study Page Styles */
 
+/* Under Construction Section */
+.under-construction {
+    padding: 60px 0 120px;
+    text-align: center;
+    background-color: rgb(254, 252, 241);
+}
+
+.construction-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    opacity: 0;
+    animation: fadeInResume 1s ease forwards;
+}
+
+.construction-icon {
+    font-size: 80px;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeInResume 1s ease 0.2s forwards;
+}
+
+.under-construction h2 {
+    font-size: 36px;
+    color: rgb(86, 151, 155);
+    margin-bottom: 25px;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeInResume 1s ease 0.4s forwards;
+}
+
+.under-construction p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInResume 1s ease 0.6s forwards;
+}
+
+.under-construction p a {
+    color: rgb(86, 151, 155);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(86, 151, 155);
+    transition: all 0.3s ease;
+}
+
+.under-construction p a:hover {
+    background-color: rgba(86, 151, 155, 0.1);
+    padding: 2px 4px;
+}
+
+.under-construction .back-to-projects {
+    margin-top: 30px;
+    opacity: 0;
+    animation: fadeInResume 1s ease 0.8s forwards;
+}
+
+.under-construction .back-to-projects .back-btn {
+    background-color: rgb(86, 151, 155);
+    color: rgb(254, 252, 241);
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.under-construction .back-to-projects .back-btn:hover {
+    background-color: rgba(86, 151, 155, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(86, 151, 155, 0.3);
+}
+
+/* Responsive Design for Under Construction */
+@media screen and (max-width: 705px) {
+    .under-construction {
+        padding: 40px 20px 80px;
+    }
+    
+    .construction-content {
+        padding: 40px 30px;
+        margin: 0 20px;
+    }
+    
+    .construction-icon {
+        font-size: 60px;
+    }
+    
+    .under-construction h2 {
+        font-size: 28px;
+    }
+    
+    .under-construction p {
+        font-size: 16px;
+    }
+    
+    .under-construction .back-to-projects .back-btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .construction-content {
+        padding: 30px 20px;
+        margin: 0 15px;
+    }
+    
+    .construction-icon {
+        font-size: 50px;
+    }
+    
+    .under-construction h2 {
+        font-size: 24px;
+    }
+}
+
 /* Hero Section */
 .case-study-hero {
     background-color: rgb(254, 252, 241);
