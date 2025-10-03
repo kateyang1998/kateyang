@@ -74,7 +74,7 @@
     }
 }
 
-@media screen and (max-width: 899px){
+@media screen and (max-width: 749px){
     .photo-area{
         grid-template-columns: 1fr;
         gap: 30px;
