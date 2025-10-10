@@ -528,7 +528,7 @@ body {
 }
 
 /* Responsive design */
-@media screen and (max-width: 1099px){
+@media screen and (max-width: 899px){
     .top-bar {
         position: relative;
         justify-content: space-between;
@@ -685,7 +685,7 @@ body {
 }
 
 /* Tablet landscape */
-@media screen and (max-width: 1099px){
+@media screen and (max-width: 1024px){
     .about-area{
         margin: 90px auto 80px;
         column-gap: 15px;
@@ -717,7 +717,7 @@ body {
 }
 
 /* Tablet portrait */
-@media screen and (max-width: 1099px){
+@media screen and (max-width: 869px){
     .top-bar, .footer-area{
         text-align: center;
     }
