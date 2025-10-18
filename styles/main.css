@@ -149,15 +149,15 @@ a:hover{
     background-clip: text;
 }
 
-.about-me>h3{
+.about-me>h2{
     color: rgb(86, 151, 155);
-    /* font-size: 24px; */
+    font-size: 1.17em; /* Match h3 default size */
     margin-bottom: 30px;
     font-weight: 500;
     position: relative;
 }
 
-.about-me>h3::after {
+.about-me>h2::after {
     content: '';
     position: absolute;
     bottom: -8px;
@@ -202,7 +202,7 @@ body {
     animation: fadeInDown 0.8s ease forwards;
 }
 
-.about-me>h3 {
+.about-me>h2 {
     animation: fadeInDown 0.8s ease 0.2s both;
 }
 
@@ -631,7 +631,7 @@ body {
         text-align: center;
     }
     
-    .about-me>h3{
+    .about-me>h2{
         font-size: 20px;
         margin-bottom: 20px;
         text-align: center;
@@ -711,7 +711,7 @@ body {
         font-size: 46px;
     }
     
-    .about-me>h3{
+    .about-me>h2{
         font-size: 20px;
     }
 }
@@ -772,7 +772,7 @@ body {
         text-align: center;
     }
     
-    .about-me>h3{
+    .about-me>h2{
         font-size: 18px;
         margin-bottom: 15px;
         text-align: center;
@@ -827,7 +827,7 @@ body {
         text-align: center;
     }
     
-    .about-me>h3{
+    .about-me>h2{
         font-size: 16px;
         margin-bottom: 12px;
         text-align: center;
@@ -943,7 +943,7 @@ body {
         text-align: center;
     }
     
-    .about-me>h3{
+    .about-me>h2{
         font-size: 14px;
         margin-bottom: 10px;
         text-align: center;
