@@ -22,7 +22,7 @@
     gap: 30px;
     margin-bottom: 40px;
     padding: 20px 0;
-    border-bottom: 1px solid rgba(86, 151, 155, 0.2);
+    border-bottom: 1px solid rgba(56, 121, 125, 0.2);
     opacity: 0;
     animation: slideInResume 0.8s ease forwards;
 }
@@ -36,7 +36,7 @@
 .project-number .number {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 /* Project content container */
@@ -62,7 +62,7 @@
 .project-info .title {
     font-weight: bold;
     font-size: 18px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .project-info .project-type {
@@ -92,7 +92,7 @@
     width: 100%;
     height: auto;
     border-radius: 15px;
-    border: 2px solid rgba(86, 151, 155, 0.3);
+    border: 2px solid rgba(56, 121, 125, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .case-study-btn {
-    background-color: rgb(86, 151, 155);
+    background-color: rgb(56, 121, 125);
     color: rgb(254, 252, 241);
     border: none;
     padding: 5px 15px;
@@ -123,9 +123,9 @@
 }
 
 .case-study-btn:hover {
-    background-color: rgba(86, 151, 155, 0.8);
+    background-color: rgba(56, 121, 125, 0.8);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(86, 151, 155, 0.3);
+    box-shadow: 0 4px 12px rgba(56, 121, 125, 0.3);
 }
 
 /* Animation delays for staggered effect */
@@ -176,7 +176,7 @@
 }
 
 .web-software-projects>h2>a:hover{
-    color: rgba(86, 152, 155, 0.797);
+    color: rgba(56, 121, 125, 0.797);
 }
 
 /* Keyframes for slideIn animation */

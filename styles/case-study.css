@@ -27,7 +27,7 @@
 
 .under-construction h2 {
     font-size: 36px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 25px;
     font-weight: bold;
     opacity: 0;
@@ -44,9 +44,9 @@
 }
 
 .under-construction p a {
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     text-decoration: none;
-    border-bottom: 1px solid rgb(86, 151, 155);
+    border-bottom: 1px solid rgb(56, 121, 125);
     transition: all 0.3s ease;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .under-construction .back-to-projects .back-btn {
-    background-color: rgb(86, 151, 155);
+    background-color: rgb(56, 121, 125);
     color: rgb(254, 252, 241);
     padding: 10px 15px;
     border-radius: 8px;
@@ -73,9 +73,9 @@
 }
 
 .under-construction .back-to-projects .back-btn:hover {
-    background-color: rgba(86, 151, 155, 0.8);
+    background-color: rgba(56, 121, 125, 0.8);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(86, 151, 155, 0.3);
+    box-shadow: 0 4px 12px rgba(56, 121, 125, 0.3);
 }
 
 /* Responsive Design for Under Construction */
@@ -146,7 +146,7 @@
 
 .hero-subtitle {
     font-size: 18px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 40px;
     opacity: 0;
     animation: fadeInResume 1s ease 0.2s forwards;
@@ -196,14 +196,14 @@
     font-size: 36px;
     color: black;
     margin-bottom: 30px;
-    border-bottom: 3px solid rgb(86, 151, 155);
+    border-bottom: 3px solid rgb(56, 121, 125);
     padding-bottom: 10px;
     display: inline-block;
 }
 
 .case-study-section h3 {
     font-size: 24px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin: 40px 0 20px;
     font-weight: bold;
 }
@@ -217,7 +217,7 @@
 
 .case-study-section h5 {
     font-size: 16px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin: 15px 0 10px;
     font-weight: bold;
 }
@@ -245,7 +245,7 @@
 }
 
 .detail-item h3 {
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 8px;
     font-size: 1em; /* Match h4 default size */
 }
@@ -275,7 +275,7 @@
 .highlight-item .stat {
     font-size: 48px;
     font-weight: bold;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     display: block;
     margin-bottom: 10px;
 }
@@ -297,9 +297,9 @@
 
 .interview-insights h4 {
     font-size: 24px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 25px;
-    border-bottom: 2px solid rgba(86, 151, 155, 0.2);
+    border-bottom: 2px solid rgba(56, 121, 125, 0.2);
     padding-bottom: 10px;
 }
 
@@ -313,7 +313,7 @@
 
 .insights-section h5 {
     font-size: 20px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 15px;
     font-weight: 600;
 }
@@ -325,11 +325,11 @@
 }
 
 .insights-list li {
-    background-color: rgba(86, 151, 155, 0.03);
+    background-color: rgba(56, 121, 125, 0.03);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border-left: 4px solid rgb(86, 151, 155);
+    border-left: 4px solid rgb(56, 121, 125);
     line-height: 1.6;
 }
 
@@ -349,7 +349,7 @@
 
 .difference-category h6 {
     font-size: 16px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 10px;
     font-weight: 600;
     text-decoration: underline;
@@ -363,9 +363,9 @@
 
 /* Quote Box */
 .quote-box {
-    background-color: rgba(86, 151, 155, 0.08);
+    background-color: rgba(56, 121, 125, 0.08);
     padding: 30px;
-    border-left: 4px solid rgb(86, 151, 155);
+    border-left: 4px solid rgb(56, 121, 125);
     margin: 30px 0;
     border-radius: 10px;
 }
@@ -379,7 +379,7 @@
 }
 
 .quote-box cite {
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     font-size: 14px;
     font-weight: bold;
 }
@@ -435,7 +435,7 @@
 }
 
 .persona-title {
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     font-size: 16px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -478,13 +478,13 @@
 
 .problem-item {
     padding: 25px;
-    background-color: rgba(86, 151, 155, 0.05);
+    background-color: rgba(56, 121, 125, 0.05);
     border-radius: 10px;
-    border-left: 4px solid rgb(86, 151, 155);
+    border-left: 4px solid rgb(56, 121, 125);
 }
 
 .problem-item h4 {
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 10px;
 }
 
@@ -495,7 +495,7 @@
 
 /* Problem Statement Box */
 .problem-statement-box {
-    background-color: rgb(86, 151, 155);
+    background-color: rgb(56, 121, 125);
     color: rgb(254, 252, 241);
     padding: 30px;
     border-radius: 15px;
@@ -585,9 +585,9 @@
 
 .test-tasks h4 {
     font-size: 22px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 20px;
-    border-bottom: 2px solid rgba(86, 151, 155, 0.2);
+    border-bottom: 2px solid rgba(56, 121, 125, 0.2);
     padding-bottom: 10px;
 }
 
@@ -598,19 +598,19 @@
 }
 
 .task-list li {
-    background-color: rgba(86, 151, 155, 0.05);
+    background-color: rgba(56, 121, 125, 0.05);
     padding: 15px;
     margin-bottom: 12px;
     border-radius: 8px;
-    border-left: 4px solid rgb(86, 151, 155);
+    border-left: 4px solid rgb(56, 121, 125);
     line-height: 1.6;
 }
 
 .test-analysis h4 {
     font-size: 22px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 25px;
-    border-bottom: 2px solid rgba(86, 151, 155, 0.2);
+    border-bottom: 2px solid rgba(56, 121, 125, 0.2);
     padding-bottom: 10px;
 }
 
@@ -630,7 +630,7 @@
 
 .finding-item h5 {
     font-size: 18px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 15px;
     font-weight: 600;
 }
@@ -647,7 +647,7 @@
 
 .key-issues h4, .design-improvements h4 {
     font-size: 20px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 15px;
 }
 
@@ -658,11 +658,11 @@
 }
 
 .issues-list li, .improvements-list li {
-    background-color: rgba(86, 151, 155, 0.05);
+    background-color: rgba(56, 121, 125, 0.05);
     padding: 12px 15px;
     margin-bottom: 8px;
     border-radius: 6px;
-    border-left: 3px solid rgb(86, 151, 155);
+    border-left: 3px solid rgb(56, 121, 125);
 }
 
 /* Test Outcome */
@@ -675,7 +675,7 @@
 
 .outcome-content h4 {
     font-size: 22px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 15px;
 }
 
@@ -699,7 +699,7 @@
 
 .outcome-summary h5 {
     font-size: 18px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 15px;
 }
 
@@ -709,11 +709,11 @@
 }
 
 .outcome-summary li {
-    background-color: rgba(86, 151, 155, 0.05);
+    background-color: rgba(56, 121, 125, 0.05);
     padding: 12px 15px;
     margin-bottom: 8px;
     border-radius: 6px;
-    border-left: 3px solid rgb(86, 151, 155);
+    border-left: 3px solid rgb(56, 121, 125);
 }
 
 /* Testing Results */
@@ -735,7 +735,7 @@
 .metric-number {
     font-size: 36px;
     font-weight: bold;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     display: block;
     margin-bottom: 10px;
 }
@@ -761,7 +761,7 @@
 
 .solution-highlight h3 {
     font-size: 24px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 15px;
 }
 
@@ -777,7 +777,7 @@
 
 .solution-results h3 {
     font-size: 24px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 25px;
 }
 
@@ -799,7 +799,7 @@
 .result-number {
     font-size: 48px;
     font-weight: bold;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     display: block;
     margin-bottom: 10px;
 }
@@ -823,7 +823,7 @@
 
 .design-principles h3 {
     font-size: 24px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 20px;
 }
 
@@ -834,11 +834,11 @@
 }
 
 .principles-list li {
-    background-color: rgba(86, 151, 155, 0.03);
+    background-color: rgba(56, 121, 125, 0.03);
     padding: 15px 20px;
     margin-bottom: 10px;
     border-radius: 8px;
-    border-left: 4px solid rgb(86, 151, 155);
+    border-left: 4px solid rgb(56, 121, 125);
     line-height: 1.6;
 }
 
@@ -858,7 +858,7 @@
 }
 
 .solution-item h4 {
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     margin-bottom: 15px;
 }
 
@@ -888,7 +888,7 @@
 }
 
 .back-btn {
-    background-color: rgb(86, 151, 155);
+    background-color: rgb(56, 121, 125);
     color: rgb(254, 252, 241);
     padding: 10px 15px;
     border-radius: 8px;
@@ -900,9 +900,9 @@
 }
 
 .back-btn:hover {
-    background-color: rgba(86, 151, 155, 0.8);
+    background-color: rgba(56, 121, 125, 0.8);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(86, 151, 155, 0.3);
+    box-shadow: 0 4px 12px rgba(56, 121, 125, 0.3);
 }
 
 /* Subsections */

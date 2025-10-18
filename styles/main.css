@@ -28,12 +28,12 @@ body{
 
 a{
     text-decoration: none;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     transition: color 0.3s ease;
 }
 
 a:hover{
-    color: rgba(86, 152, 155, 0.797);
+    color: rgba(56, 121, 125, 0.797);
 }
 
 .kate{
@@ -42,7 +42,7 @@ a:hover{
 }
 
 .top-bar>p{
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -150,7 +150,7 @@ a:hover{
 }
 
 .about-me>h2{
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     font-size: 1.17em; /* Match h3 default size */
     margin-bottom: 30px;
     font-weight: 500;
@@ -164,7 +164,7 @@ a:hover{
     left: 0;
     width: 60px;
     height: 2px;
-    background: linear-gradient(90deg, rgb(86, 151, 155), transparent);
+    background: linear-gradient(90deg, rgb(56, 121, 125), transparent);
 }
 
 .about-me>p{
@@ -226,12 +226,12 @@ body {
 }
 
 .title{
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
     font-weight: bold;
 }
 
 .slashes{
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .buttons>a>img{
@@ -311,7 +311,7 @@ body {
 .experience-number .number {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .experience-position {
@@ -323,7 +323,7 @@ body {
 .experience-position .title {
     font-weight: bold;
     font-size: 18px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .experience-position .company {
@@ -367,7 +367,7 @@ body {
 .skill-number .number {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .skill-category {
@@ -379,7 +379,7 @@ body {
 .skill-category .title {
     font-weight: bold;
     font-size: 18px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .skill-category .skill-type {
@@ -418,7 +418,7 @@ body {
 .certificate-number .number {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .certificate-info {
@@ -430,7 +430,7 @@ body {
 .certificate-info .title {
     font-weight: bold;
     font-size: 18px;
-    color: rgb(86, 151, 155);
+    color: rgb(56, 121, 125);
 }
 
 .certificate-info .provider {
@@ -505,7 +505,7 @@ body {
 .mobile-menu-toggle span {
     width: 25px;
     height: 3px;
-    background-color: rgb(86, 151, 155);
+    background-color: rgb(56, 121, 125);
     margin: 3px 0;
     transition: 0.3s;
 }
