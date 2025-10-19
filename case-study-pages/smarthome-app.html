@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Home Mobile App</title>
     <link rel="icon" href="../images/logo.png">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/case-study.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../js/script.js"></script>
 </head>
 <body>
     <section class="top-bar">
         <p>
-            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/logo.png" alt="Kate Yang Logo" class="top-bar-logo" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/logo.png" alt="Kate Yang Logo" class="top-bar-logo">
             <a href="https://kateyang1998.github.io/kateyang/"><span class="kate">Kate Yang</span></a>
             &nbsp;&nbsp;&nbsp;Software Developer / UX Designer
         </p>
-        
+
         <!-- Mobile hamburger menu button -->
         <div class="mobile-menu-toggle">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        
+
         <!-- Navigation menu -->
         <nav class="nav-menu">
             <a data-auto-recognition="true" href="mailto:kateyangqingru@gmail.com">Email Me</a>
@@ -39,30 +38,367 @@
         </nav>
     </section>
 
+    <!-- Case Study Hero Section -->
     <section class="case-study-hero">
         <div class="hero-content">
             <h1>Smart Home Mobile App</h1>
             <p class="hero-subtitle">UX Design • Team Project (4 members)</p>
-        </div>
-    </section>
-
-    <section class="under-construction">
-        <div class="construction-content">
-            <div class="construction-icon">🚧</div>
-            <h2>Under Construction</h2>
-            <p>This case study is currently being developed. Please check back soon for the complete project details, design process, and insights.</p>
-            <p>In the meantime, feel free to explore my other projects or <a href="mailto:kateyangqingru@gmail.com">get in touch</a> to discuss this project.</p>
-            <div class="back-to-projects">
-                <a href="../projects.html" class="back-btn">← Back to Projects</a>
+            <div class="hero-image">
+                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/smarthome.jpg" alt="Smart Home App Design" loading="lazy">
             </div>
         </div>
     </section>
+
+    <!-- Case Study Content -->
+    <div class="case-study-container">
+
+        <!-- Project Overview -->
+        <section class="case-study-section">
+            <h2>Project Overview</h2>
+            <div class="section-content">
+                <p>
+                    This project focuses on designing a smart home mobile application that enhances home safety, energy efficiency, and irrigation management through intuitive UX design. The app aims to help environmentally conscious users, busy individuals, and seniors manage their homes efficiently with automated control and real-time monitoring features.
+                </p>
+                <div class="project-details-grid">
+                    <div class="detail-item">
+                        <h3>Duration</h3>
+                        <p>2 weeks</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Team</h3>
+                        <p>Kate Yang, Jiwoo Lee, Matt Robinson, Zack Clarke</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>My Role</h3>
+                        <p>UX Researcher (Market Research), Prototype Designer (Sketches and High-Fidelity Prototypes)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Tools</h3>
+                        <p>Typeform, Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Empathize Section -->
+        <section class="case-study-section">
+            <h2>Empathize</h2>
+
+            <div class="empathy-subsection">
+                <h3>User Research</h3>
+                <div class="section-content">
+                    <p>
+                        We began by researching the global smart home market and user attitudes toward home automation. Our market analysis highlighted rapid growth, with smart home adoption expected to reach $338.28 billion by 2030. Through an online survey, we explored users’ familiarity with smart technologies, daily challenges, and safety concerns.
+                    </p>
+
+                    <div class="survey-highlights">
+                        <div class="highlight-item">
+                            <span class="stat">70%</span>
+                            <p>Have forgotten to turn off appliances</p>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="stat">40%</span>
+                            <p>Unfamiliar with smart home technology</p>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="stat">50%</span>
+                            <p>Concerned about water conservation</p>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="stat">60%</span>
+                            <p>Aged 25–34, representing key adopters</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="empathy-subsection">
+                <h3>User Interviews</h3>
+                <div class="section-content">
+                    <p>
+                        Matt conducted semi-structured interviews with two smart home users to better understand their experiences managing irrigation, energy use, and safety at home.
+                    </p>
+
+                    <div class="interview-insights">
+                        <h4>Interview Insights</h4>
+
+                        <div class="insights-section">
+                            <h5>Key Findings</h5>
+                            <ul class="insights-list">
+                                <li>Users want automation that saves time and energy.</li>
+                                <li>Safety and peace of mind are top priorities.</li>
+                                <li>Setup complexity and data privacy are major concerns.</li>
+                            </ul>
+                        </div>
+
+                        <div class="insights-section">
+                            <h5>User Pain Points</h5>
+                            <ul class="insights-list">
+                                <li>Manual irrigation adjustments are time-consuming.</li>
+                                <li>Difficult setup and integration across devices.</li>
+                                <li>Forgetting to turn off appliances poses safety risks.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="empathy-subsection">
+                <h3>Empathy Map</h3>
+                <div class="section-content">
+                    <p>
+                        Our empathy mapping revealed that users seek convenience, automation, and safety but often feel overwhelmed by the complexity of existing systems. They want clear feedback, control, and reassurance when managing their homes.
+                    </p>
+                    <div class="empathy-map-container">
+                        <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/Empathy map-smarthome.png" alt="Smart Home App Empathy Map" class="empathy-map-image" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Define Section -->
+        <section class="case-study-section">
+            <h2>Define</h2>
+
+            <div class="define-subsection">
+                <h3>User Persona</h3>
+                <div class="section-content">
+                    <div class="persona-card">
+                        <div class="persona-details-wrapper">
+                            <div class="persona-info">
+                                <h4>Martha Hills</h4>
+                                <p class="persona-title">Retired</p>
+                                <ul class="persona-details">
+                                    <li>Age: 68 | Married | BC, Canada</li>
+                                </ul>
+                            </div>
+                            <div class="persona-content">
+                                <div class="persona-section">
+                                    <h5>User Needs</h5>
+                                    <ul>
+                                        <li>Easy-to-use system</li>
+                                        <li>Safety features</li>
+                                        <li>Remote monitoring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="persona-image">
+                            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/persona1-smarthome.png" alt="Martha Hills User Persona" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="persona-card">
+                        <div class="persona-details-wrapper">
+                            <div class="persona-info">
+                                <h4>Jessica Wills</h4>
+                                <p class="persona-title">University Student</p>
+                                <ul class="persona-details">
+                                    <li>Age: 24 | Married | ON, Canada</li>
+                                </ul>
+                            </div>
+                            <div class="persona-content">
+                                <div class="persona-section">
+                                    <h5>User Needs</h5>
+                                    <ul>
+                                        <li>Simple and intuitive design.</li>
+                                        <li>Educational resources</li>
+                                        <li>Cost-effective solutions</li>
+                                        <li>Modular system</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="persona-image">
+                            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/persona2-smarthome.png" alt="Jessica Wills User Persona" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="define-subsection">
+                <h3>Problem Analysis</h3>
+                <div class="section-content">
+                    <p>
+                        Based on research and interviews, we identified key stages in the user journey where frustration occurs — from awareness and setup to daily use. Users struggle with complex interfaces, confusing installation, and lack of educational resources.
+                    </p>
+                    <div class="problem-list">
+                        <div class="problem-item">
+                            <h4>1. Lack of Awareness</h4>
+                            <p>Users do not fully understand the benefits of smart home systems or how they can improve safety and efficiency.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>2. Complex Setup</h4>
+                            <p>Technical installation and unclear instructions discourage adoption, especially for non-tech-savvy users.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>3. Poor Usability</h4>
+                            <p>Existing apps have unintuitive interfaces, making it difficult to control devices or monitor energy and water usage efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Statement</h3>
+                <div class="section-content">
+                    <div class="problem-statement-box">
+                        <p>
+                            <strong>
+                                Homeowners and renters, especially those who are busy, eco-conscious, or care for seniors, lack accessible and user-friendly smart home systems to manage their environments safely and efficiently. Current solutions are often overly complex, leading to wasted energy, water, and safety risks.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ideate Section -->
+        <section class="case-study-section">
+            <h2>Ideate</h2>
+
+            <div class="section-content">
+                <h3>Sketches</h3>
+                <p>Our team collaboratively explored multiple design directions. Each member contributed unique ideas for smart home control, automation flows, and safety alert systems, which were merged into one cohesive concept.</p>
+
+                <div class="sketches-grid">
+                    <div class="sketch-item">
+                        <div class="sketch-image">
+                            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/Kate-smarthome.jpg" alt="Kate's Sketches" loading="lazy">
+                        </div>
+                        <figcaption class="sketch-caption">Kate's Sketches</figcaption>
+                    </div>
+                    <div class="sketch-item">
+                        <div class="sketch-image">
+                            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/Jiwoo-smarthome.jpg" alt="Jiwoo's Sketches" loading="lazy">
+                        </div>
+                        <figcaption class="sketch-caption">Jiwoo's Sketches</figcaption>
+                    </div>
+                    <div class="sketch-item">
+                        <div class="sketch-image">
+                            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/Matt-smarthome.jpg" alt="Matt's Sketches" loading="lazy">
+                        </div>
+                        <figcaption class="sketch-caption">Matt's Sketches</figcaption>
+                    </div>
+                    <div class="sketch-item">
+                        <div class="sketch-image">
+                            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/Zack-smarthome.jpg" alt="Zack's Sketches" loading="lazy">
+                        </div>
+                        <figcaption class="sketch-caption">Zack's Sketches</figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section class="case-study-section">
+            <h2>Prototype</h2>
+
+            <div class="prototype-subsection">
+                <h3>Low-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>Jiwoo created digital wireframes in Figma based on selected sketches to refine the layout and navigation flow. The focus was on simplicity, intuitive grouping, and clear visual hierarchy.</p>
+                    <div class="prototype-image">
+                        <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/wireframe-smarthome.jpg" alt="Low-Fidelity Smart Home App Prototypes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="prototype-subsection">
+                <h3>High-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>I transformed the wireframes into high-fidelity prototypes with interactive elements for testing. The design emphasized accessibility, easy navigation, and consistent iconography for faster learning.</p>
+                    <div class="prototype-image">
+                        <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/case-study-images/prototype-smarthome.jpg" alt="High-Fidelity Smart Home App Prototypes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Solution Section -->
+        <section class="case-study-section">
+            <h2>Final Solution & Design Brief</h2>
+
+            <div class="section-content">
+                <p>
+                    The final solution integrates smart irrigation, appliance control, and safety monitoring in one cohesive system. The design is human-centered, scalable, and user-friendly for different levels of tech literacy.
+                </p>
+
+                <div class="solution-overview">
+                    <div class="solution-highlight">
+                        <h3>Core Solution Areas</h3>
+                        <p>Automation, Safety, and Sustainability</p>
+                    </div>
+                </div>
+
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <h4>Smart Irrigation Scheduling</h4>
+                        <p><strong>Problem:</strong> Users struggle to manually manage watering schedules.</p>
+                        <p><strong>Solution:</strong> Automated watering based on soil moisture and weather data.</p>
+                        <p><strong>Impact:</strong> Saves up to 35% water usage and reduces maintenance effort.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Appliance Safety Control</h4>
+                        <p><strong>Problem:</strong> Forgotten appliances create fire and energy risks.</p>
+                        <p><strong>Solution:</strong> Automatic shut-off, real-time alerts, and remote access.</p>
+                        <p><strong>Impact:</strong> Prevents accidents and enhances peace of mind.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Simple, Accessible Interface</h4>
+                        <p><strong>Problem:</strong> Smart home systems often feel complex and inconsistent.</p>
+                        <p><strong>Solution:</strong> Unified, easy-to-navigate layout with consistent icons and feedback.</p>
+                        <p><strong>Impact:</strong> Reduces user frustration and increases adoption rate.</p>
+                    </div>
+                </div>
+
+                <div class="design-principles">
+                    <h3>Design Principles Applied</h3>
+                    <ul class="principles-list">
+                        <li><strong>Fitts’s Law:</strong> Enlarged main buttons like “Login” and “Create Scene” for quick access</li>
+                        <li><strong>Law of Proximity:</strong> Grouped related controls together for clear hierarchy</li>
+                        <li><strong>Law of Similarity:</strong> Consistent shapes and colors to indicate related actions</li>
+                        <li><strong>Design Thinking:</strong> Followed an iterative process of empathizing, defining, ideating, prototyping, and testing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflect Section -->
+        <section class="case-study-section">
+            <h2>Reflect</h2>
+
+            <div class="section-content">
+                <h3>What I Learned</h3>
+                <ul class="reflection-list">
+                    <li>How to apply design thinking principles from research to prototype testing</li>
+                    <li>The importance of accessibility and clarity in UX for smart technologies</li>
+                    <li>Collaborating effectively in a multidisciplinary design team</li>
+                </ul>
+
+                <h3>Next Steps</h3>
+                <p>If I were to continue this project, I would focus on:</p>
+                <ul class="reflection-list">
+                    <li>Conducting usability tests with a wider demographic (especially seniors)</li>
+                    <li>Improving onboarding to simplify setup for first-time users</li>
+                    <li>Integrating real-time IoT device simulation for more accurate testing</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="back-to-projects">
+            <a href="../projects.html" class="back-btn">← Back to Projects</a>
+        </section>
+
+    </div>
 
     <!-- Footer -->
     <section class="footer-area">
         <div class="footer-left">
             <div class="footer-logo">
-                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/logo.png" alt="Kate Yang Logo" class="footer-logo-img" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/logo.png" alt="Kate Yang Logo" class="footer-logo-img">
             </div>
             <p class="copyright">&copy; Copyright by Kate Yang 2025</p>
         </div>
