@@ -1,6 +1,6 @@
 # Kate Yang - Portfolio Website
 
-A modern, responsive portfolio website showcasing my work as a Software Developer and UX Designer. Built with vanilla HTML, CSS, and JavaScript featuring smooth animations, mobile-first design, and consistent user experience across all devices.
+A modern, responsive portfolio website showcasing my work as a Software Developer and UX Designer. Built with vanilla HTML, CSS, and JavaScript featuring smooth animations, mobile-first design, accessibility-focused implementation, and consistent user experience across all devices.
 
 ## 🌟 Features
 
@@ -8,7 +8,7 @@ A modern, responsive portfolio website showcasing my work as a Software Develope
 - **Modern Design System**: Cohesive visual identity with consistent typography, colors, and spacing
 - **Smooth Animations**: Custom CSS animations with staggered loading effects for enhanced user engagement
 - **Responsive Design**: Mobile-first approach optimized for all screen sizes from 320px to desktop
-- **Accessibility**: Semantic HTML structure with proper navigation and screen reader support
+- **Accessibility Focused**: WCAG AA compliant with proper heading hierarchy, contrast ratios, and semantic HTML
 - **Interactive Elements**: Hover effects, smooth transitions, and engaging micro-interactions
 
 ### Technical Features
@@ -26,9 +26,19 @@ kateyang.github.io/
 ├── resume.html             # Professional experience, skills, and certifications
 ├── projects.html           # UX design projects and development work showcase
 ├── gallery.html            # Photography and creative work gallery
+├── case-study-pages/
+│   ├── redesign-youtube.html   # YouTube Music App redesign case study
+│   ├── smarthome-app.html      # Smart Home Mobile App case study
+│   ├── k-studio.html           # K Studio case study
+│   ├── medical-app.html        # Medical App case study
+│   ├── recipe-app.html         # Recipe App case study
+│   ├── bakery-shop.html        # Bakery Shop case study
+│   ├── college-website.html    # College Website case study
+│   └── renovation-website.html # Renovation Website case study
 ├── styles/
 │   ├── main.css            # Core styles and responsive design
 │   ├── projects.css        # Project-specific styling
+│   ├── case-study.css      # Case study page layouts and components
 │   ├── gallery.css         # Gallery layout and image styling
 │   └── normalize.css       # CSS reset for browser consistency
 ├── js/
@@ -42,35 +52,40 @@ kateyang.github.io/
 ## 🎨 Design System
 
 ### Color Palette
-- **Primary**: `rgb(86, 151, 155)` - Sophisticated teal for headers and accents
+- **Primary**: `rgb(56, 121, 125)` - Accessible dark teal for headers, links, and accents (WCAG AA compliant)
+- **Secondary**: `rgb(76, 131, 135)` - Lighter teal for metadata and secondary information
 - **Background**: `rgb(254, 252, 241)` - Warm cream for comfortable reading
-- **Text**: `#333` for primary content, `#666` for secondary text
+- **Text Primary**: `#333` for main content
+- **Text Secondary**: `#666` for supporting text
+- **Text Tertiary**: `#6a6a6a` for italic metadata (dates, collaboration info)
 - **Interactive**: Hover states with opacity and transform effects
 
 ### Typography
 - **Font Family**: Segoe UI, Tahoma, Geneva, Verdana, sans-serif
 - **Responsive Scaling**: Progressive font sizes across breakpoints
-- **Hierarchy**: Clear distinction between headings, subheadings, and body text
+- **Hierarchy**: Clear distinction between headings (h1-h5), subheadings, and body text
+- **Accessibility**: Proper heading levels (no skipped levels) for screen readers
 
 ### Layout System
 - **Three-Column Grid**: Consistent layout across Resume and Projects pages
 - **Flexible Grid**: Gallery uses responsive CSS Grid with auto-fit columns
+- **Case Study Layout**: Full-width hero sections with centered content containers (max-width: 1200px)
 - **Mobile-First**: Progressive enhancement from mobile to desktop
 
 ## 📱 Responsive Breakpoints
 
-- **Desktop**: 1024px and above - Full three-column layouts
-- **Tablet Landscape**: 899px - 1024px - Optimized spacing and typography
-- **Tablet Portrait**: 609px - 899px - Stacked mobile navigation
+- **Desktop**: 1100px and above - Full three-column layouts, wide case study content
+- **Tablet Landscape**: 899px - 1099px - Two-column adjustments, optimized spacing
+- **Tablet Portrait**: 609px - 899px - Stacked mobile navigation, single-column layouts
 - **Mobile Large**: 459px - 609px - Single column, larger touch targets
-- **Mobile Medium**: 393px - 459px - Optimized for iPhone 14 Pro
+- **Mobile Medium**: 393px - 459px - Optimized for iPhone 14 Pro and similar
 - **Mobile Small**: 320px - 393px - Compact layout for older devices
 
 ## 🚀 Pages Overview
 
 ### Home (index.html)
 - Personal introduction with animated typing effect
-- Professional photo with hover animations
+- Professional photo with hover animations and floating effects
 - About me section with staggered text animations
 - Responsive grid layout transitioning to mobile stack
 
@@ -81,27 +96,32 @@ kateyang.github.io/
 - **Animations**: Staggered loading effects for each section
 
 ### Projects (projects.html)
-- **UX Design Projects**: 8 comprehensive case studies including:
-  - Mobile app prototypes (K Studio, Bakery Shop, Recipe App)
-  - Team collaborations (Medical App, Smart Home, YouTube Music Redesign)
-  - Web design projects (College Website, Renovation Consultant)
-- **Development Projects**: Link to GitHub repository
+- **UX Design Projects**: 8 comprehensive case studies with images and descriptions
+- **Project Cards**: Numbered system with project type, team info, and preview images
+- **Case Study Links**: Direct links to detailed case study pages
 - **Interactive Images**: Hover effects with smooth transitions
 
 ### Gallery (gallery.html)
-- **Photography Showcase**: 30 high-quality photographs
+- **Photography Showcase**: 30+ high-quality photographs
 - **Responsive Grid**: Auto-adjusting columns based on screen size
 - **Image Optimization**: Lazy loading with progressive enhancement
 - **Smooth Animations**: Staggered loading with hover interactions
 
+### Case Study Pages
+Comprehensive case studies following the design thinking process:
+- **YouTube Music Redesign**: Mobile app UX improvements
+- **Smart Home App**: IoT home automation interface
+- Structured sections: Project Overview, Empathize, Define, Ideate, Prototype, Test, Final Solution, Reflect
+
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic markup with modern best practices
-- **CSS3**: 
+- **HTML5**: Semantic markup with WCAG AA accessibility standards
+- **CSS3**:
   - Flexbox and CSS Grid for layouts
   - Custom animations with keyframes
-  - CSS variables for consistent theming
+  - Consistent color variables throughout
   - Media queries for responsive design
+  - Accessibility-focused contrast ratios
 - **JavaScript (ES6+)**:
   - Mobile menu functionality
   - Typed.js integration for text animations
@@ -134,10 +154,10 @@ Visit the live portfolio at: [https://kateyang1998.github.io/kateyang/](https://
    ```bash
    # Using Python 3
    python -m http.server 8080
-   
+
    # Using Node.js
    npx serve .
-   
+
    # Using PHP
    php -S localhost:8080
    ```
@@ -146,11 +166,21 @@ Visit the live portfolio at: [https://kateyang1998.github.io/kateyang/](https://
 
 ## 🎯 Performance Optimizations
 
-- **Minimal Dependencies**: Only essential external libraries
-- **Optimized Images**: Compressed images with proper sizing
+- **Minimal Dependencies**: Only essential external libraries (Typed.js)
+- **Optimized Images**: CDN-hosted images with lazy loading
 - **Efficient CSS**: Consolidated styles with minimal redundancy
 - **Progressive Loading**: Staggered animations prevent overwhelming users
 - **Mobile-First CSS**: Reduces unnecessary desktop styles on mobile
+- **Accessibility**: Optimized for screen readers and keyboard navigation
+
+## ♿ Accessibility Features
+
+- **WCAG AA Compliant**: Color contrast ratios meet accessibility standards
+- **Semantic HTML**: Proper heading hierarchy (h1 → h2 → h3, no skipped levels)
+- **Alt Text**: Descriptive alternative text for all images
+- **Keyboard Navigation**: Full site navigation via keyboard
+- **Screen Reader Support**: Proper ARIA labels and semantic structure
+- **Focus States**: Clear visual indicators for interactive elements
 
 ## 🔧 Browser Support
 
@@ -163,9 +193,10 @@ Visit the live portfolio at: [https://kateyang1998.github.io/kateyang/](https://
 - [ ] Add blog section for technical articles
 - [ ] Implement dark mode toggle
 - [ ] Add contact form with backend integration
-- [ ] Include more interactive project demos
+- [ ] Complete remaining case study pages
 - [ ] Add loading animations and skeleton screens
 - [ ] Implement service worker for offline functionality
+- [ ] Add animation preferences (prefers-reduced-motion support)
 
 ## 👩‍💻 About Kate Yang
 
@@ -173,9 +204,9 @@ Software Developer and UX Designer passionate about creating innovative solution
 
 **Skills**: Java, C#, HTML5, CSS3, JavaScript, React, UX Design, Figma, Adobe Creative Suite
 
-## 📄 Open Source
+## 📄 License
 
-This project is open source and other developers and designers are welcome to use!
+This project is open source and available for other developers and designers to learn from and use.
 
 ---
 
@@ -183,5 +214,4 @@ This project is open source and other developers and designers are welcome to us
 
 📧 **Contact**: [kateyangqingru@gmail.com](mailto:kateyangqingru@gmail.com)
 🔗 **LinkedIn**: [linkedin.com/in/kateyangqingru](https://www.linkedin.com/in/kateyangqingru/)
-
 🐙 **GitHub**: [github.com/kateyang1998](https://github.com/kateyang1998)
