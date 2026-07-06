@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K Studio Mobile App</title>
     <link rel="icon" href="../images/ky-logo.png">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/case-study.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../js/script.js"></script>
 </head>
 <body>
     <section class="top-bar">
         <p>
-            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo">
             <a href="https://kateyang1998.github.io/kateyang/"><span class="kate">Kate Yang</span></a>
             &nbsp;&nbsp;&nbsp;Software Developer / UX Designer
         </p>
-        
+
         <!-- Mobile hamburger menu button -->
         <div class="mobile-menu-toggle">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        
+
         <!-- Navigation menu -->
         <nav class="nav-menu">
             <a data-auto-recognition="true" href="mailto:kateyangqingru@gmail.com">Email Me</a>
@@ -39,30 +38,263 @@
         </nav>
     </section>
 
+    <!-- Case Study Hero Section -->
     <section class="case-study-hero">
         <div class="hero-content">
             <h1>K Studio Mobile App</h1>
-            <p class="hero-subtitle">UX Design • Individual Project</p>
-        </div>
-    </section>
-
-    <section class="under-construction">
-        <div class="construction-content">
-            <div class="construction-icon">🚧</div>
-            <h2>Under Construction</h2>
-            <p>This case study is currently being developed. Please check back soon for the complete project details, design process, and insights.</p>
-            <p>In the meantime, feel free to explore my other projects or <a href="mailto:kateyangqingru@gmail.com">get in touch</a> to discuss this project.</p>
-            <div class="back-to-projects">
-                <a href="../projects.html" class="back-btn">← Back to Projects</a>
+            <p class="hero-subtitle">UX Design • Independent Project</p>
+            <div class="hero-image">
+                <img src="../images/kstudio.jpg" alt="K Studio Mobile App Design" loading="lazy">
             </div>
         </div>
     </section>
+
+    <!-- Case Study Content -->
+    <div class="case-study-container">
+
+        <!-- Project Overview -->
+        <section class="case-study-section">
+            <h2>Project Overview</h2>
+            <div class="section-content">
+                <p>
+                    K Studio is a fashion clothing brand, and this project focused on designing a mobile shopping app that lets users browse the store's collections and complete purchases directly in the app. The goal was to create a clean, image-forward shopping experience that reflects the brand's modern aesthetic while keeping browsing and checkout effortless.
+                </p>
+                <div class="project-details-grid">
+                    <div class="detail-item">
+                        <h3>Duration</h3>
+                        <p>1 week</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Team</h3>
+                        <p>Independent Project</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>My Role</h3>
+                        <p>UX Researcher, UI/UX Designer, Prototype Designer (end-to-end)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Tools</h3>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Empathize Section -->
+        <section class="case-study-section">
+            <h2>Empathize</h2>
+
+            <div class="empathy-subsection">
+                <h3>Competitive Analysis</h3>
+                <div class="section-content">
+                    <p>
+                        As an independent project without survey or interview data, I grounded the design in a competitive analysis of two leading fashion e-commerce apps — <strong>SSENSE</strong> and <strong>Zara</strong>. Studying how these established brands approach mobile shopping helped me identify best practices and opportunities for K Studio.
+                    </p>
+
+                    <div class="interview-insights">
+                        <div class="insights-section">
+                            <h5>SSENSE vs. Zara</h5>
+                            <div class="differences-grid">
+                                <div class="difference-category">
+                                    <h6>Visual Design</h6>
+                                    <p><strong>SSENSE →</strong> minimal, editorial layout with generous whitespace and large product imagery.</p>
+                                    <p><strong>Zara →</strong> bold, full-bleed photography with a stripped-back, high-contrast interface.</p>
+                                </div>
+                                <div class="difference-category">
+                                    <h6>Navigation</h6>
+                                    <p><strong>SSENSE →</strong> clear category hierarchy that makes filtering and finding items easy.</p>
+                                    <p><strong>Zara →</strong> streamlined catalog with quick access to new arrivals and collections.</p>
+                                </div>
+                                <div class="difference-category">
+                                    <h6>Product Browsing</h6>
+                                    <p><strong>SSENSE →</strong> detailed product pages with rich imagery and clear information.</p>
+                                    <p><strong>Zara →</strong> fast, swipeable galleries that keep the focus on the clothing.</p>
+                                </div>
+                                <div class="difference-category">
+                                    <h6>Checkout</h6>
+                                    <p><strong>SSENSE →</strong> structured, step-by-step flow with clear order summaries.</p>
+                                    <p><strong>Zara →</strong> quick add-to-cart and a short, low-friction checkout.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="insights-section">
+                            <h5>Key Takeaways for K Studio</h5>
+                            <ul class="insights-list">
+                                <li>Lead with large, high-quality product imagery so the clothing stands out.</li>
+                                <li>Keep the interface minimal so attention stays on the products.</li>
+                                <li>Offer clear, simple category navigation for effortless browsing.</li>
+                                <li>Streamline the path from browsing to a low-friction checkout.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Define Section -->
+        <section class="case-study-section">
+            <h2>Define</h2>
+
+            <div class="define-subsection">
+                <h3>Target User</h3>
+                <div class="section-content">
+                    <p>
+                        K Studio targets style-conscious shoppers, primarily adults aged 18–45, who prefer to browse and shop for fashion on their phones. These users value a clean, easy-to-navigate experience, high-quality product visuals, and a quick, hassle-free purchase.
+                    </p>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Analysis</h3>
+                <div class="section-content">
+                    <p>
+                        Drawing on the competitive analysis, I identified common pain points that fashion shopping apps often fail to address well.
+                    </p>
+                    <div class="problem-list">
+                        <div class="problem-item">
+                            <h4>1. Cluttered Browsing</h4>
+                            <p>Many shopping apps overwhelm users with dense layouts, making it hard to focus on the products themselves.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>2. High-Friction Checkout</h4>
+                            <p>Long, multi-step checkout flows create frustration and lead to abandoned carts.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>3. Weak Brand Identity</h4>
+                            <p>Generic, template-like interfaces fail to reflect a brand's aesthetic and feel impersonal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Statement</h3>
+                <div class="section-content">
+                    <div class="problem-statement-box">
+                        <p>
+                            <strong>
+                                Fashion shoppers want to browse and purchase clothing on mobile quickly and enjoyably, but many shopping apps feel cluttered and impersonal, with friction-filled checkout flows. K Studio needs a clean, image-forward app that makes discovering and buying clothing effortless while reflecting the brand's modern aesthetic.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ideate Section -->
+        <section class="case-study-section">
+            <h2>Ideate</h2>
+
+            <div class="section-content">
+                <p>
+                    Because this was a focused, independent project, I moved directly from research and problem definition into high-fidelity prototyping in Figma. Rather than producing separate low-fidelity sketches or wireframes, I iterated on layout, visual style, and the shopping flow directly within the high-fidelity designs.
+                </p>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section class="case-study-section">
+            <h2>Prototype</h2>
+
+            <div class="prototype-subsection">
+                <h3>High-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>
+                        I designed interactive high-fidelity prototypes in Figma covering the core shopping flow — from browsing collections and viewing product details to completing a purchase. The design emphasizes large product imagery, a minimal interface, and a streamlined checkout that reflects K Studio's modern brand aesthetic.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/prototype-kstudio.jpg" alt="High-Fidelity K Studio Mobile App Prototypes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Solution Section -->
+        <section class="case-study-section">
+            <h2>Final Solution & Design Brief</h2>
+
+            <div class="section-content">
+                <p>
+                    The final solution is a clean, image-forward shopping app that lets users browse K Studio's collections and buy items with minimal friction. The design keeps the focus on the products while making navigation and checkout simple and intuitive.
+                </p>
+
+                <div class="solution-overview">
+                    <div class="solution-highlight">
+                        <h3>Core Focus Areas</h3>
+                        <p>Effortless Browsing, Clear Product Details, and Simple Checkout</p>
+                    </div>
+                </div>
+
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <h4>Effortless Browsing</h4>
+                        <p><strong>Problem:</strong> Cluttered layouts make it hard to focus on products.</p>
+                        <p><strong>Solution:</strong> A minimal interface with large imagery and clear category navigation.</p>
+                        <p><strong>Impact:</strong> Users can discover items quickly and enjoyably.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Clear Product Details</h4>
+                        <p><strong>Problem:</strong> Users need confidence in what they are buying.</p>
+                        <p><strong>Solution:</strong> Detailed product pages with rich imagery, sizing, and clear pricing.</p>
+                        <p><strong>Impact:</strong> Builds trust and supports informed purchase decisions.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Streamlined Checkout</h4>
+                        <p><strong>Problem:</strong> Long checkout flows cause cart abandonment.</p>
+                        <p><strong>Solution:</strong> A short, low-friction checkout with clear order summaries.</p>
+                        <p><strong>Impact:</strong> Reduces drop-off and speeds up purchases.</p>
+                    </div>
+                </div>
+
+                <div class="design-principles">
+                    <h3>Design Principles Applied</h3>
+                    <ul class="principles-list">
+                        <li><strong>Visual Hierarchy:</strong> Large imagery and clear typography guide attention to the products</li>
+                        <li><strong>Law of Proximity:</strong> Grouped related information for a clear, scannable layout</li>
+                        <li><strong>Consistency:</strong> Consistent icons, spacing, and components throughout the app</li>
+                        <li><strong>Aesthetic-Usability Effect:</strong> A clean, modern look that reinforces the brand and feels easy to use</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflect Section -->
+        <section class="case-study-section">
+            <h2>Reflect</h2>
+
+            <div class="section-content">
+                <h3>What I Learned</h3>
+                <ul class="reflection-list">
+                    <li>How to translate competitive research into concrete design decisions</li>
+                    <li>The value of a minimal, image-forward layout in fashion e-commerce</li>
+                    <li>Designing and prototyping an end-to-end shopping flow independently in Figma</li>
+                </ul>
+
+                <h3>Next Steps</h3>
+                <p>If I were to continue this project, I would focus on:</p>
+                <ul class="reflection-list">
+                    <li>Conducting usability tests with target users to validate the shopping flow</li>
+                    <li>Adding features such as wishlists, filtering, and size guides</li>
+                    <li>Exploring personalization and product recommendations</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="back-to-projects">
+            <a href="../projects.html" class="back-btn">← Back to Projects</a>
+        </section>
+
+    </div>
 
     <!-- Footer -->
     <section class="footer-area">
         <div class="footer-left">
             <div class="footer-logo">
-                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img">
             </div>
             <p class="copyright">&copy; Copyright by Kate Yang 2026</p>
         </div>

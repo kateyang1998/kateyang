@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".case-study-btn").forEach(btn => {
         btn.addEventListener("click", function() {
             const page = this.getAttribute("data-page");
-            window.open("case-study-pages/" + page, "_blank");
+            window.location.href = "case-study-pages/" + page;
         });
     });
 });
