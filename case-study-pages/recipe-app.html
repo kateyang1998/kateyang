@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Mobile App</title>
     <link rel="icon" href="../images/ky-logo.png">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/case-study.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../js/script.js"></script>
 </head>
 <body>
     <section class="top-bar">
         <p>
-            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo">
             <a href="https://kateyang1998.github.io/kateyang/"><span class="kate">Kate Yang</span></a>
             &nbsp;&nbsp;&nbsp;Software Developer / UX Designer
         </p>
-        
+
         <!-- Mobile hamburger menu button -->
         <div class="mobile-menu-toggle">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        
+
         <!-- Navigation menu -->
         <nav class="nav-menu">
             <a data-auto-recognition="true" href="mailto:kateyangqingru@gmail.com">Email Me</a>
@@ -39,30 +38,303 @@
         </nav>
     </section>
 
+    <!-- Case Study Hero Section -->
     <section class="case-study-hero">
         <div class="hero-content">
             <h1>Recipe Mobile App</h1>
-            <p class="hero-subtitle">UX Design • Individual Project</p>
-        </div>
-    </section>
-
-    <section class="under-construction">
-        <div class="construction-content">
-            <div class="construction-icon">🚧</div>
-            <h2>Under Construction</h2>
-            <p>This case study is currently being developed. Please check back soon for the complete project details, design process, and insights.</p>
-            <p>In the meantime, feel free to explore my other projects or <a href="mailto:kateyangqingru@gmail.com">get in touch</a> to discuss this project.</p>
-            <div class="back-to-projects">
-                <a href="../projects.html" class="back-btn">← Back to Projects</a>
+            <p class="hero-subtitle">UX Design • Independent Project</p>
+            <div class="hero-image">
+                <img src="../images/recipeapp.jpg" alt="Recipe Mobile App Design" loading="lazy">
             </div>
         </div>
     </section>
+
+    <!-- Case Study Content -->
+    <div class="case-study-container">
+
+        <!-- Project Overview -->
+        <section class="case-study-section">
+            <h2>Project Overview</h2>
+            <div class="section-content">
+                <p>
+                    The Recipe Mobile App helps users cook smarter with the ingredients they already have. It lets users browse recipes based on their available ingredients, track ingredient expiration dates to reduce food waste, and automatically generate a weekly grocery shopping list from saved recipes. I designed the app independently, applying cognitive psychology, Don Norman's design principles, and UX laws to create an intuitive and effective experience.
+                </p>
+                <div class="project-details-grid">
+                    <div class="detail-item">
+                        <h3>Duration</h3>
+                        <p>2 weeks</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Team</h3>
+                        <p>Independent Project</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>My Role</h3>
+                        <p>UX Researcher, UI/UX Designer, Prototype Designer (end-to-end)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Tools</h3>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Empathize Section -->
+        <section class="case-study-section">
+            <h2>Empathize</h2>
+
+            <div class="empathy-subsection">
+                <h3>User Research</h3>
+                <div class="section-content">
+                    <p>
+                        I began by identifying the app's primary users and the challenges they face around cooking and meal planning. Two groups stood out: busy working parents who want to cook for their families using what's already in the fridge, and health-conscious students who need recipes that fit their dietary goals. Common themes emerged across both groups.
+                    </p>
+
+                    <div class="interview-insights">
+                        <div class="insights-section">
+                            <h5>Key Themes</h5>
+                            <ul class="insights-list">
+                                <li>Limited time for meal planning and cooking due to busy schedules.</li>
+                                <li>Difficulty coming up with recipes from the ingredients on hand.</li>
+                                <li>Food waste caused by forgotten, expiring ingredients.</li>
+                                <li>A need for recipes that match dietary restrictions and nutritional goals.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Define Section -->
+        <section class="case-study-section">
+            <h2>Define</h2>
+
+            <div class="define-subsection">
+                <h3>User Personas</h3>
+                <div class="section-content">
+                    <div class="persona-card">
+                        <div class="persona-details-wrapper">
+                            <div class="persona-info">
+                                <h4>Catherine Walter</h4>
+                                <p class="persona-title">Software Development Manager</p>
+                                <ul class="persona-details">
+                                    <li>Age: 40 | Married | Waterloo, Canada</li>
+                                </ul>
+                            </div>
+                            <div class="persona-content">
+                                <div class="persona-section">
+                                    <h5>User Needs</h5>
+                                    <ul>
+                                        <li>Simple and intuitive user interface</li>
+                                        <li>Accurate recipe recommendations</li>
+                                        <li>Notifications for expiring ingredients</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="persona-image">
+                            <img src="../case-study-images/persona1-recipe.png" alt="Catherine Walter User Persona" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="persona-card">
+                        <div class="persona-details-wrapper">
+                            <div class="persona-info">
+                                <h4>Henry Jones</h4>
+                                <p class="persona-title">University Student & Fitness Enthusiast</p>
+                                <ul class="persona-details">
+                                    <li>Age: 23 | Single | Waterloo, Canada</li>
+                                </ul>
+                            </div>
+                            <div class="persona-content">
+                                <div class="persona-section">
+                                    <h5>User Needs</h5>
+                                    <ul>
+                                        <li>Simple and intuitive user interface</li>
+                                        <li>Accurate recipe recommendations</li>
+                                        <li>Ingredient substitutions</li>
+                                        <li>Accurate nutritional information</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="persona-image">
+                            <img src="../case-study-images/persona2-recipe.png" alt="Henry Jones User Persona" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Analysis</h3>
+                <div class="section-content">
+                    <p>
+                        Drawing on the personas, I identified the core problems the app needed to solve.
+                    </p>
+                    <div class="problem-list">
+                        <div class="problem-item">
+                            <h4>1. Time Constraints</h4>
+                            <p>Busy users struggle to plan meals and cook with limited time after work or study.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>2. Ingredient Waste</h4>
+                            <p>Forgotten, expiring ingredients lead to food waste, added cost, and food safety risks.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>3. Recipe Discovery</h4>
+                            <p>It's hard to find recipes that fit both the ingredients on hand and users' dietary and nutritional goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Statement</h3>
+                <div class="section-content">
+                    <div class="problem-statement-box">
+                        <p>
+                            <strong>
+                                Busy home cooks and health-conscious users want to prepare meals easily using the ingredients they already have, but they struggle to find suitable recipes, track expiring ingredients, and plan meals around their dietary goals. The Recipe App needs to make cooking effortless by recommending recipes from available ingredients, reducing food waste, and simplifying meal and grocery planning.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ideate Section -->
+        <section class="case-study-section">
+            <h2>Ideate</h2>
+
+            <div class="section-content">
+                <h3>Sketches</h3>
+                <p>
+                    With the personas and the project's design challenges defined, I sketched initial concepts to explore the app's core screens and flows — from ingredient-based search to meal planning and the shopping list.
+                </p>
+                <div class="prototype-image">
+                    <img src="../case-study-images/sketch-recipe.jpg" alt="Recipe App Sketches" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section class="case-study-section">
+            <h2>Prototype</h2>
+
+            <div class="prototype-subsection">
+                <h3>Low-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>
+                        I translated the sketches into low-fidelity wireframes in Figma, combining the personas' needs with the key design challenges to finalize the necessary screens — Home, Search, Kitchen, Meal Planner, Recipe, Shopping List, and User Profile. The focus was on clear structure, navigation, and visual hierarchy.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/wireframe-recipe.jpg" alt="Low-Fidelity Recipe App Wireframes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="prototype-subsection">
+                <h3>High-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>
+                        I then developed interactive high-fidelity prototypes with a clean, accessible interface, refining the visual design, iconography, and layout. The design emphasizes clarity, easy navigation, and consistent components for an intuitive experience.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/prototype-recipe.jpg" alt="High-Fidelity Recipe App Prototypes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Solution Section -->
+        <section class="case-study-section">
+            <h2>Final Solution & Design Brief</h2>
+
+            <div class="section-content">
+                <p>
+                    The final solution is an ingredient-first recipe app that makes cooking smarter and reduces food waste. It integrates cognitive psychology, Don Norman's design principles, and UX laws to deliver an intuitive, accessible experience across all core screens.
+                </p>
+
+                <div class="solution-overview">
+                    <div class="solution-highlight">
+                        <h3>Core Features</h3>
+                        <p>Ingredient-Based Recipes, Expiration Tracking, and Smart Meal & Shopping Planning</p>
+                    </div>
+                </div>
+
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <h4>Ingredient-Based Recipe Search</h4>
+                        <p><strong>Problem:</strong> It's hard to cook with only what's on hand.</p>
+                        <p><strong>Solution:</strong> Search or scan ingredients to generate recipes, with filters for meal type, cuisine, difficulty, and prep time.</p>
+                        <p><strong>Impact:</strong> Makes the most of existing ingredients and saves time.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Expiration Tracking</h4>
+                        <p><strong>Problem:</strong> Forgotten ingredients expire and go to waste.</p>
+                        <p><strong>Solution:</strong> A Kitchen screen tracks ingredients and sends notifications before they expire.</p>
+                        <p><strong>Impact:</strong> Reduces food waste, cost, and food safety risks.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Meal Planning & Shopping List</h4>
+                        <p><strong>Problem:</strong> Planning healthy meals for the week is tedious.</p>
+                        <p><strong>Solution:</strong> Generate a weekly meal plan and an automatic shopping list from saved recipes, with nutritional info and dietary profiles.</p>
+                        <p><strong>Impact:</strong> Simplifies planning and supports users' dietary goals.</p>
+                    </div>
+                </div>
+
+                <div class="design-principles">
+                    <h3>Design Principles Applied</h3>
+                    <ul class="principles-list">
+                        <li><strong>Visibility (Norman):</strong> Clear icons, straightforward navigation, and uncluttered screens</li>
+                        <li><strong>Feedback (Norman):</strong> Timely alerts, such as ingredient expiration notifications</li>
+                        <li><strong>Affordance & Mapping (Norman):</strong> Intuitive icons and controls that respond predictably to user actions</li>
+                        <li><strong>Constraints & Consistency (Norman):</strong> Preventing user errors and keeping buttons, icons, and layouts uniform</li>
+                        <li><strong>Fitts's Law:</strong> Large, full-width search bars and buttons for easy, accurate tapping</li>
+                        <li><strong>Gestalt Principles:</strong> Similarity, Proximity, and Common Region to group related content</li>
+                        <li><strong>Aesthetic-Usability Effect:</strong> A visually pleasing design that feels easier to use</li>
+                        <li><strong>Accessibility:</strong> Color choices for visual impairments and audio cues for hearing impairments</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflect Section -->
+        <section class="case-study-section">
+            <h2>Reflect</h2>
+
+            <div class="section-content">
+                <h3>What I Learned</h3>
+                <ul class="reflection-list">
+                    <li>How to apply cognitive psychology and Don Norman's principles to real UX decisions</li>
+                    <li>Designing an ingredient-first experience that reduces food waste</li>
+                    <li>Taking a design from personas and sketches through wireframes to high-fidelity prototypes independently</li>
+                </ul>
+
+                <h3>Next Steps</h3>
+                <p>If I were to continue this project, I would focus on:</p>
+                <ul class="reflection-list">
+                    <li>Conducting usability tests to validate the ingredient scanning and meal planning flows</li>
+                    <li>Integrating a real recipe and nutrition database</li>
+                    <li>Adding smart notifications and personalized recommendations based on cooking history</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="back-to-projects">
+            <a href="../projects.html" class="back-btn">← Back to Projects</a>
+        </section>
+
+    </div>
 
     <!-- Footer -->
     <section class="footer-area">
         <div class="footer-left">
             <div class="footer-logo">
-                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img">
             </div>
             <p class="copyright">&copy; Copyright by Kate Yang 2026</p>
         </div>
