@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kate's Bakery Shop Mobile App</title>
     <link rel="icon" href="../images/ky-logo.png">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/case-study.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../js/script.js"></script>
 </head>
 <body>
     <section class="top-bar">
         <p>
-            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo">
             <a href="https://kateyang1998.github.io/kateyang/"><span class="kate">Kate Yang</span></a>
             &nbsp;&nbsp;&nbsp;Software Developer / UX Designer
         </p>
-        
+
         <!-- Mobile hamburger menu button -->
         <div class="mobile-menu-toggle">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        
+
         <!-- Navigation menu -->
         <nav class="nav-menu">
             <a data-auto-recognition="true" href="mailto:kateyangqingru@gmail.com">Email Me</a>
@@ -39,30 +38,249 @@
         </nav>
     </section>
 
+    <!-- Case Study Hero Section -->
     <section class="case-study-hero">
         <div class="hero-content">
             <h1>Kate's Bakery Shop Mobile App</h1>
-            <p class="hero-subtitle">UX Design • Individual Project</p>
-        </div>
-    </section>
-
-    <section class="under-construction">
-        <div class="construction-content">
-            <div class="construction-icon">🚧</div>
-            <h2>Under Construction</h2>
-            <p>This case study is currently being developed. Please check back soon for the complete project details, design process, and insights.</p>
-            <p>In the meantime, feel free to explore my other projects or <a href="mailto:kateyangqingru@gmail.com">get in touch</a> to discuss this project.</p>
-            <div class="back-to-projects">
-                <a href="../projects.html" class="back-btn">← Back to Projects</a>
+            <p class="hero-subtitle">UX Design • Independent Project</p>
+            <div class="hero-image">
+                <img src="../images/bakeryshop.jpg" alt="Kate's Bakery Shop Mobile App Design" loading="lazy">
             </div>
         </div>
     </section>
+
+    <!-- Case Study Content -->
+    <div class="case-study-container">
+
+        <!-- Project Overview -->
+        <section class="case-study-section">
+            <h2>Project Overview</h2>
+            <div class="section-content">
+                <p>
+                    Kate's Bakery Shop is a local bakery, and this project focused on designing a mobile app that lets customers browse the bakery's menu and place orders directly from their phones. The goal was to create a warm, appetizing, and easy-to-use ordering experience that reflects the bakery's friendly brand and makes buying baked goods effortless.
+                </p>
+                <div class="project-details-grid">
+                    <div class="detail-item">
+                        <h3>Duration</h3>
+                        <p>1 week</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Team</h3>
+                        <p>Independent Project</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>My Role</h3>
+                        <p>UX Researcher, UI/UX Designer, Prototype Designer (end-to-end)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Tools</h3>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Empathize Section -->
+        <section class="case-study-section">
+            <h2>Empathize</h2>
+
+            <div class="empathy-subsection">
+                <h3>Market Research</h3>
+                <div class="section-content">
+                    <p>
+                        I grounded the design in general market research on online food and bakery ordering. Mobile ordering has become a standard expectation for food businesses, and customers increasingly value the convenience of browsing menus, customizing orders, and paying ahead from their phones. This research surfaced a few consistent expectations that shaped the app.
+                    </p>
+
+                    <div class="interview-insights">
+                        <div class="insights-section">
+                            <h5>What Users Expect from a Food Ordering App</h5>
+                            <ul class="insights-list">
+                                <li><strong>Appetizing visuals:</strong> Customers "order with their eyes," so high-quality product imagery is essential.</li>
+                                <li><strong>Clear menu organization:</strong> Items grouped into intuitive categories make browsing quick and easy.</li>
+                                <li><strong>Simple ordering:</strong> Easy customization and a short path from menu to cart reduce friction.</li>
+                                <li><strong>Convenient pickup &amp; payment:</strong> Ordering ahead and paying in-app saves time and avoids waiting in line.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Define Section -->
+        <section class="case-study-section">
+            <h2>Define</h2>
+
+            <div class="define-subsection">
+                <h3>Target User</h3>
+                <div class="section-content">
+                    <p>
+                        The app targets customers of a local bakery — busy professionals, families, and dessert lovers — who want a quick and convenient way to browse and order fresh baked goods on the go, without having to call ahead or wait in line.
+                    </p>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Analysis</h3>
+                <div class="section-content">
+                    <p>
+                        Based on the research, I identified the key problems that make ordering from a local bakery inconvenient today.
+                    </p>
+                    <div class="problem-list">
+                        <div class="problem-item">
+                            <h4>1. Hard-to-Browse Menu</h4>
+                            <p>Physical menus and basic websites don't showcase products well, making it difficult for customers to see what's available.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>2. Inconvenient Ordering</h4>
+                            <p>Customers often have to call or visit in person to order, which is time-consuming and prone to miscommunication.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>3. No Easy Way to Order Ahead</h4>
+                            <p>Without an ordering app, busy customers can't reserve items or pay in advance, leading to wait times and sold-out favorites.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Statement</h3>
+                <div class="section-content">
+                    <div class="problem-statement-box">
+                        <p>
+                            <strong>
+                                Bakery customers want a quick, convenient way to browse and order fresh baked goods, but ordering by phone or in person is time-consuming and inconvenient. Kate's Bakery Shop needs a warm, appetizing mobile app that makes browsing the menu and ordering ahead effortless while reflecting the bakery's friendly brand.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ideate Section -->
+        <section class="case-study-section">
+            <h2>Ideate</h2>
+
+            <div class="section-content">
+                <p>
+                    As a focused, independent project, I moved directly from research and problem definition into wireframing in Figma. Rather than producing separate sketches, I explored the layout, menu structure, and ordering flow through low-fidelity wireframes before refining them into high-fidelity designs.
+                </p>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section class="case-study-section">
+            <h2>Prototype</h2>
+
+            <div class="prototype-subsection">
+                <h3>Low-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>
+                        I created low-fidelity wireframes in Figma to establish the app's layout, menu organization, and ordering flow. The focus was on clear category grouping, visual hierarchy, and an intuitive path from browsing to checkout.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/wireframe-bakeryshop.jpg" alt="Low-Fidelity Bakery Shop App Wireframes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="prototype-subsection">
+                <h3>High-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>
+                        I then developed interactive high-fidelity prototypes with appetizing product imagery, warm brand colors, and a streamlined ordering flow. The design emphasizes clear menu browsing, easy customization, and a simple, convenient checkout.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/prototype-bakeryshop.jpg" alt="High-Fidelity Bakery Shop App Prototypes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Solution Section -->
+        <section class="case-study-section">
+            <h2>Final Solution & Design Brief</h2>
+
+            <div class="section-content">
+                <p>
+                    The final solution is a warm, appetizing ordering app that lets customers browse Kate's Bakery Shop's menu and order ahead with minimal friction. The design keeps the focus on the products while making menu browsing, customization, and checkout simple and intuitive.
+                </p>
+
+                <div class="solution-overview">
+                    <div class="solution-highlight">
+                        <h3>Core Focus Areas</h3>
+                        <p>Appetizing Menu Browsing, Easy Ordering, and Convenient Checkout</p>
+                    </div>
+                </div>
+
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <h4>Appetizing Menu Browsing</h4>
+                        <p><strong>Problem:</strong> Basic menus don't showcase products well.</p>
+                        <p><strong>Solution:</strong> High-quality imagery with items grouped into clear categories.</p>
+                        <p><strong>Impact:</strong> Customers can quickly see and crave what's available.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Easy Ordering</h4>
+                        <p><strong>Problem:</strong> Ordering by phone or in person is inconvenient.</p>
+                        <p><strong>Solution:</strong> Simple in-app customization and a short path from menu to cart.</p>
+                        <p><strong>Impact:</strong> Reduces friction and makes ordering effortless.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Convenient Checkout &amp; Pickup</h4>
+                        <p><strong>Problem:</strong> No way to order ahead or pay in advance.</p>
+                        <p><strong>Solution:</strong> Order-ahead with in-app payment and pickup details.</p>
+                        <p><strong>Impact:</strong> Saves time and avoids waiting in line.</p>
+                    </div>
+                </div>
+
+                <div class="design-principles">
+                    <h3>Design Principles Applied</h3>
+                    <ul class="principles-list">
+                        <li><strong>Visual Hierarchy:</strong> Appetizing imagery and clear typography guide attention to the products</li>
+                        <li><strong>Law of Proximity:</strong> Related menu items and controls grouped for easy scanning</li>
+                        <li><strong>Consistency:</strong> Consistent icons, spacing, and components throughout the app</li>
+                        <li><strong>Aesthetic-Usability Effect:</strong> A warm, friendly look that reinforces the brand and feels easy to use</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflect Section -->
+        <section class="case-study-section">
+            <h2>Reflect</h2>
+
+            <div class="section-content">
+                <h3>What I Learned</h3>
+                <ul class="reflection-list">
+                    <li>How to translate market research into concrete design decisions</li>
+                    <li>The importance of appetizing visuals and clear organization in food ordering apps</li>
+                    <li>Refining a design from low-fidelity wireframes to high-fidelity prototypes independently in Figma</li>
+                </ul>
+
+                <h3>Next Steps</h3>
+                <p>If I were to continue this project, I would focus on:</p>
+                <ul class="reflection-list">
+                    <li>Conducting usability tests with target customers to validate the ordering flow</li>
+                    <li>Adding features such as favorites, order history, and delivery options</li>
+                    <li>Exploring loyalty rewards and personalized recommendations</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="back-to-projects">
+            <a href="../projects.html" class="back-btn">← Back to Projects</a>
+        </section>
+
+    </div>
 
     <!-- Footer -->
     <section class="footer-area">
         <div class="footer-left">
             <div class="footer-logo">
-                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img">
             </div>
             <p class="copyright">&copy; Copyright by Kate Yang 2026</p>
         </div>
