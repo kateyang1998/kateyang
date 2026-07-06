@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medical Mobile App</title>
     <link rel="icon" href="../images/ky-logo.png">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/case-study.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../js/script.js"></script>
 </head>
 <body>
     <section class="top-bar">
         <p>
-            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo">
             <a href="https://kateyang1998.github.io/kateyang/"><span class="kate">Kate Yang</span></a>
             &nbsp;&nbsp;&nbsp;Software Developer / UX Designer
         </p>
-        
+
         <!-- Mobile hamburger menu button -->
         <div class="mobile-menu-toggle">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        
+
         <!-- Navigation menu -->
         <nav class="nav-menu">
             <a data-auto-recognition="true" href="mailto:kateyangqingru@gmail.com">Email Me</a>
@@ -39,30 +38,292 @@
         </nav>
     </section>
 
+    <!-- Case Study Hero Section -->
     <section class="case-study-hero">
         <div class="hero-content">
             <h1>Medical Mobile App</h1>
             <p class="hero-subtitle">UX Design • Team Project (4 members)</p>
-        </div>
-    </section>
-
-    <section class="under-construction">
-        <div class="construction-content">
-            <div class="construction-icon">🚧</div>
-            <h2>Under Construction</h2>
-            <p>This case study is currently being developed. Please check back soon for the complete project details, design process, and insights.</p>
-            <p>In the meantime, feel free to explore my other projects or <a href="mailto:kateyangqingru@gmail.com">get in touch</a> to discuss this project.</p>
-            <div class="back-to-projects">
-                <a href="../projects.html" class="back-btn">← Back to Projects</a>
+            <div class="hero-image">
+                <img src="../images/medicalapp.jpg" alt="Medical Mobile App Design" loading="lazy">
             </div>
         </div>
     </section>
+
+    <!-- Case Study Content -->
+    <div class="case-study-container">
+
+        <!-- Project Overview -->
+        <section class="case-study-section">
+            <h2>Project Overview</h2>
+            <div class="section-content">
+                <p>
+                    This project focused on designing a medical mobile app that helps users access healthcare quickly and conveniently. The app lets users consult specialists through an AI chatbot, video, or text, book appointments, get online prescriptions, find nearby pharmacies, and call an ambulance during emergencies. The design centers on an older, retired user with moderate technology proficiency, prioritizing simplicity, clarity, and accessibility.
+                </p>
+                <div class="project-details-grid">
+                    <div class="detail-item">
+                        <h3>Duration</h3>
+                        <p>2 weeks</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Team</h3>
+                        <p>Kate Yang, Jiwoo Lee, Matt Robinson, Zachary Clarke</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>My Role</h3>
+                        <p>Prototype Designer (High-Fidelity Prototypes)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Tools</h3>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Empathize Section -->
+        <section class="case-study-section">
+            <h2>Empathize</h2>
+
+            <div class="empathy-subsection">
+                <h3>Research</h3>
+                <div class="section-content">
+                    <p>
+                        Matt and Zack led the research, examining why a mobile app — rather than a web application — best fits the medical needs of our target user, John. They identified several advantages that shaped the decision to design for mobile.
+                    </p>
+
+                    <div class="interview-insights">
+                        <div class="insights-section">
+                            <h5>Why Mobile</h5>
+                            <ul class="insights-list">
+                                <li><strong>Accessibility:</strong> Can be accessed anytime, anywhere from a smartphone — ideal for a portable, convenient experience.</li>
+                                <li><strong>User Experience:</strong> Optimized for touch gestures, camera, and push notifications, making it more intuitive for users with moderate tech proficiency.</li>
+                                <li><strong>Offline Access:</strong> Certain features and data remain available offline — crucial during emergencies or travel.</li>
+                                <li><strong>Device Integration:</strong> Leverages GPS, camera, and notifications for location services, uploading records, and appointment or emergency alerts.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Define Section -->
+        <section class="case-study-section">
+            <h2>Define</h2>
+
+            <div class="define-subsection">
+                <h3>User Persona</h3>
+                <div class="section-content">
+                    <p>Matt and Zack created the user persona that guided the design.</p>
+                    <div class="persona-card">
+                        <div class="persona-details-wrapper">
+                            <div class="persona-info">
+                                <h4>John Wills</h4>
+                                <p class="persona-title">Retired</p>
+                                <ul class="persona-details">
+                                    <li>Age: 68 | Married | NY, USA</li>
+                                </ul>
+                            </div>
+                            <div class="persona-content">
+                                <div class="persona-section">
+                                    <h5>User Needs</h5>
+                                    <ul>
+                                        <li>Simplified interface</li>
+                                        <li>Clear communication</li>
+                                        <li>Efficient processes</li>
+                                        <li>Quick access to a doctor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="persona-image">
+                            <img src="../case-study-images/persona-medical.png" alt="John User Persona" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>User Story</h3>
+                <div class="section-content">
+                    <div class="problem-statement-box">
+                        <p>
+                            <strong>
+                                As a retired individual, I want to quickly and easily access a doctor so I can be better aware of my health condition without long waiting.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="define-subsection">
+                <h3>Problem Analysis</h3>
+                <div class="section-content">
+                    <p>
+                        Based on the research and persona, we identified the key problems the app needed to solve for users like John.
+                    </p>
+                    <div class="problem-list">
+                        <div class="problem-item">
+                            <h4>1. Complex Interfaces</h4>
+                            <p>Overly complex app interfaces are difficult for older users with moderate tech proficiency to navigate.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>2. Long, Inconvenient Journeys</h4>
+                            <p>Lengthy user journeys and long waiting times make accessing care frustrating and slow.</p>
+                        </div>
+                        <div class="problem-item">
+                            <h4>3. Fragmented Care</h4>
+                            <p>Consultations, prescriptions, pharmacies, and emergency help are scattered across different services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ideate Section -->
+        <section class="case-study-section">
+            <h2>Ideate</h2>
+
+            <div class="empathy-subsection">
+                <h3>User Flow</h3>
+                <div class="section-content">
+                    <p>
+                        We mapped the user flow to define how John would move through the app — from opening and logging in, to finding a doctor, booking appointments, consulting via chat or video, connecting with a pharmacy, and triggering an emergency call.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/userflow-medical.jpg" alt="Medical App User Flow" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="empathy-subsection">
+                <h3>Sketches</h3>
+                <div class="section-content">
+                    <p>
+                        Jiwoo created hand-drawn sketches to explore the layout of each screen — including the loading and home screens, AI chatbot and specialist search, appointment booking, video and text consultations, pharmacy, user profile, and emergency call.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/sketch-medical.jpg" alt="Medical App Sketches" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section class="case-study-section">
+            <h2>Prototype</h2>
+
+            <div class="prototype-subsection">
+                <h3>Low-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>
+                        Jiwoo converted the sketches into low-fidelity wireframes in Figma, building the base structure of each screen following Don Norman's and the Gestalt principles. The wireframes established the home layout, bottom navigation, specialist search, consultation screens, appointment booking, pharmacy, and emergency flows.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/wireframe-medical.jpg" alt="Low-Fidelity Medical App Wireframes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="prototype-subsection">
+                <h3>High-Fidelity Prototypes</h3>
+                <div class="section-content">
+                    <p>
+                        I designed the high-fidelity prototypes based on the wireframes and the app's purpose. Since it is a health-related app, I chose a green-and-white theme to evoke health, calm, and improved quality of life, while highlighting the "Emergency" button in a contrasting red for immediate visibility. Each screen was designed with clear iconography, consistent components, and a simple layout tailored to the user's needs.
+                    </p>
+                    <div class="prototype-image">
+                        <img src="../case-study-images/prototype-medical.jpg" alt="High-Fidelity Medical App Prototypes" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Solution Section -->
+        <section class="case-study-section">
+            <h2>Final Solution & Design Brief</h2>
+
+            <div class="section-content">
+                <p>
+                    The final solution is a green-and-white medical app that brings consultations, prescriptions, pharmacies, and emergency help together in one simple, accessible experience. The design keeps John at the center, prioritizing clarity and ease of use for someone with moderate tech proficiency.
+                </p>
+
+                <div class="solution-overview">
+                    <div class="solution-highlight">
+                        <h3>Core Features</h3>
+                        <p>Specialist Consultations, Appointment & Prescription Management, and Emergency Support</p>
+                    </div>
+                </div>
+
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <h4>Find & Consult a Specialist</h4>
+                        <p><strong>Problem:</strong> Reaching the right doctor quickly is difficult.</p>
+                        <p><strong>Solution:</strong> Search by category or keyword, get AI-driven recommendations, and consult via chat or video — with the AI chatbot bridging users to a real specialist.</p>
+                        <p><strong>Impact:</strong> Faster, more convenient access to care.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Appointments, Prescriptions & Pharmacy</h4>
+                        <p><strong>Problem:</strong> Booking, prescriptions, and pickup are scattered and slow.</p>
+                        <p><strong>Solution:</strong> Book appointments with clear time selection, receive online prescriptions, and locate the nearest pharmacy for pickup.</p>
+                        <p><strong>Impact:</strong> A seamless, end-to-end care journey.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Emergency Support</h4>
+                        <p><strong>Problem:</strong> Emergencies demand instant, reassuring help.</p>
+                        <p><strong>Solution:</strong> A highlighted red Emergency button calls an ambulance instantly, shows real-time ambulance status, and provides first-aid instructions.</p>
+                        <p><strong>Impact:</strong> Swift response and peace of mind in critical moments.</p>
+                    </div>
+                </div>
+
+                <div class="design-principles">
+                    <h3>Design Principles Applied</h3>
+                    <ul class="principles-list">
+                        <li><strong>Visibility & Feedback (Norman):</strong> Clear icons, uncluttered screens, and real-time status such as ambulance tracking</li>
+                        <li><strong>Affordance & Mapping (Norman):</strong> Intuitive icons and logically grouped controls that guide users to the right actions</li>
+                        <li><strong>Constraints & Consistency (Norman):</strong> Simplified layouts and uniform components across the AI chatbot and specialist chat screens</li>
+                        <li><strong>Gestalt Principles:</strong> Similarity and proximity to group related actions and information</li>
+                        <li><strong>Visual Hierarchy:</strong> Prioritizing today's appointments, bookmarked doctors, and the latest prescription</li>
+                        <li><strong>Accessibility (AODA):</strong> A user-centered design with a calming color theme and a high-contrast emergency action</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflect Section -->
+        <section class="case-study-section">
+            <h2>Reflect</h2>
+
+            <div class="section-content">
+                <h3>What I Learned</h3>
+                <ul class="reflection-list">
+                    <li>Translating a team's research, persona, and wireframes into cohesive high-fidelity prototypes</li>
+                    <li>Using color and contrast intentionally — green for health, red for emergencies — to guide attention</li>
+                    <li>Designing for accessibility and simplicity for older users with moderate tech proficiency</li>
+                </ul>
+
+                <h3>Next Steps</h3>
+                <p>If we were to continue this project, we would focus on:</p>
+                <ul class="reflection-list">
+                    <li>Conducting usability tests with older users to validate the flows</li>
+                    <li>Refining the AI chatbot's handoff to real specialists</li>
+                    <li>Exploring integration with wearables for health monitoring and alerts</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="back-to-projects">
+            <a href="../projects.html" class="back-btn">← Back to Projects</a>
+        </section>
+
+    </div>
 
     <!-- Footer -->
     <section class="footer-area">
         <div class="footer-left">
             <div class="footer-logo">
-                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img">
             </div>
             <p class="copyright">&copy; Copyright by Kate Yang 2026</p>
         </div>
