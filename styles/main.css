@@ -10,10 +10,17 @@ body{
     width: 95%;
     /* max-width: 1400px; */
     margin: 30px auto;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
     background-color: rgb(254, 252, 241);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
+}
+
+.footer-area{
+    margin-top: auto;
 }
 
 .top-bar{
