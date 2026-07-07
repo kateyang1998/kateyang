@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serenity Yoga Studio Website</title>
     <link rel="icon" href="../images/ky-logo.png">
-    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/case-study.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../js/script.js"></script>
 </head>
 <body>
     <section class="top-bar">
         <p>
-            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="top-bar-logo">
             <a href="https://kateyang1998.github.io/kateyang/"><span class="kate">Kate Yang</span></a>
             &nbsp;&nbsp;&nbsp;Software Developer / UX Designer
         </p>
@@ -39,30 +38,194 @@
         </nav>
     </section>
 
+    <!-- Case Study Hero Section -->
     <section class="case-study-hero">
         <div class="hero-content">
             <h1>Serenity Yoga Studio Website</h1>
-            <p class="hero-subtitle">UX Design • Website</p>
-        </div>
-    </section>
-
-    <section class="under-construction">
-        <div class="construction-content">
-            <div class="construction-icon">🚧</div>
-            <h2>Under Construction</h2>
-            <p>This case study is currently being developed. Please check back soon for the complete project details, design process, and insights.</p>
-            <p>In the meantime, feel free to explore my other projects or <a href="mailto:kateyangqingru@gmail.com">get in touch</a> to discuss this project.</p>
-            <div class="back-to-projects">
-                <a href="../projects.html" class="back-btn">← Back to Projects</a>
+            <p class="hero-subtitle">UX Design & Front-End Development • Independent Project</p>
+            <div class="hero-image">
+                <img src="../images/yogastudio.jpg" alt="Serenity Yoga Studio Website Design" loading="lazy">
             </div>
         </div>
     </section>
+
+    <!-- Case Study Content -->
+    <div class="case-study-container">
+
+        <!-- Project Overview -->
+        <section class="case-study-section">
+            <h2>Project Overview</h2>
+            <div class="section-content">
+                <p>
+                    Serenity Yoga Studio is a landing page I designed and built for a fictional yoga studio. I created the design in Figma and implemented it as a fully responsive, accessible web page using HTML and CSS. The page invites visitors to explore classes and instructors, learn about the studio, read student testimonials, and book a class — all wrapped in a calm, nature-inspired visual style that reflects the studio's brand.
+                </p>
+                <p>
+                    <strong>🔗 <a href="https://github.com/kateyang1998/kateyang-serenity-yoga-studio" target="_blank">GitHub Repository</a></strong>
+                </p>
+                <div class="project-details-grid">
+                    <div class="detail-item">
+                        <h3>Duration</h3>
+                        <p>1 week</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Team</h3>
+                        <p>Independent Project</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>My Role</h3>
+                        <p>UX/UI Designer & Front-End Developer (end-to-end)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Tools</h3>
+                        <p>Figma, HTML, CSS, WAVE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page Design Section -->
+        <section class="case-study-section">
+            <h2>Page Design</h2>
+            <div class="section-content">
+                <p>
+                    I designed the landing page in Figma with a calming, nature-inspired aesthetic — soft greens, generous spacing, and clean typography — to convey a sense of serenity that matches the studio's brand. The page is organized into clear, scannable sections that guide visitors from a welcoming hero straight toward booking a class.
+                </p>
+                <div class="interview-insights">
+                    <div class="insights-section">
+                        <h5>Page Sections</h5>
+                        <ul class="insights-list">
+                            <li><strong>Hero:</strong> A welcoming headline with a clear "Book a Class" call to action.</li>
+                            <li><strong>Featured Classes &amp; Instructors:</strong> Hatha, Vinyasa Flow, Restorative, and Power Yoga, each with its instructor.</li>
+                            <li><strong>About Our Studio:</strong> A short introduction to the studio and its values.</li>
+                            <li><strong>What Our Students Say:</strong> Testimonials that build trust with new visitors.</li>
+                            <li><strong>Join Us Today:</strong> Class hours, address, and contact details with a final call to action.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Responsive Design Section -->
+        <section class="case-study-section">
+            <h2>Responsive Design</h2>
+            <div class="section-content">
+                <p>
+                    I implemented the page to adapt seamlessly across three breakpoints — desktop, tablet, and mobile. Multi-column layouts on desktop reflow into stacked, touch-friendly sections on smaller screens, keeping the content readable and the booking action easy to reach on any device.
+                </p>
+                <div class="prototype-image">
+                    <img src="../case-study-images/prototype-yogastudio.jpg" alt="Serenity Yoga Studio responsive design — desktop, tablet, and mobile views" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Accessibility Section -->
+        <section class="case-study-section">
+            <h2>Accessibility</h2>
+            <div class="section-content">
+                <p>
+                    Accessibility was a core part of this project. I tested the page with the WAVE evaluation tool, which initially flagged six color-contrast errors — the instructor text (#6B9080) in the Featured Classes &amp; Instructors section, and the white text over the light background in the Join Us section.
+                </p>
+                <div class="interview-insights">
+                    <div class="insights-section">
+                        <h5>Fixes Applied</h5>
+                        <ul class="insights-list">
+                            <li>Darkened the instructor text color to <strong>#406451</strong> for sufficient contrast.</li>
+                            <li>Changed the Join Us section background to <strong>#406451</strong> — preserving the design's aesthetic while fixing contrast, rather than just recoloring the text.</li>
+                            <li>Added email and phone contact details in a highlighted container to make them more prominent.</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>
+                    After these changes, WAVE detected no remaining errors, and the page meets accessibility contrast standards.
+                </p>
+            </div>
+        </section>
+
+        <!-- Final Solution Section -->
+        <section class="case-study-section">
+            <h2>Final Solution & Design Brief</h2>
+
+            <div class="section-content">
+                <p>
+                    The final result is a responsive, accessible landing page — designed in Figma and built with HTML and CSS — that presents Serenity Yoga Studio in a calm, welcoming way and makes booking a class effortless on any device.
+                </p>
+
+                <div class="solution-overview">
+                    <div class="solution-highlight">
+                        <h3>Core Focus Areas</h3>
+                        <p>Calming Visual Design, Responsive Layout, and Accessibility</p>
+                    </div>
+                </div>
+
+                <div class="solution-grid">
+                    <div class="solution-item">
+                        <h4>Calming Visual Design</h4>
+                        <p><strong>Goal:</strong> Reflect the serenity of a yoga studio.</p>
+                        <p><strong>Solution:</strong> A soft green palette, generous spacing, and clean typography.</p>
+                        <p><strong>Impact:</strong> A brand-aligned experience that feels calm and inviting.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Responsive Layout</h4>
+                        <p><strong>Goal:</strong> Work well on any device.</p>
+                        <p><strong>Solution:</strong> Layouts that reflow across desktop, tablet, and mobile breakpoints.</p>
+                        <p><strong>Impact:</strong> A consistent, easy-to-use experience everywhere.</p>
+                    </div>
+
+                    <div class="solution-item">
+                        <h4>Accessibility</h4>
+                        <p><strong>Goal:</strong> Usable by everyone.</p>
+                        <p><strong>Solution:</strong> WAVE-tested contrast fixes and clearer, more prominent contact info.</p>
+                        <p><strong>Impact:</strong> An inclusive page that meets accessibility standards.</p>
+                    </div>
+                </div>
+
+                <div class="design-principles">
+                    <h3>Design Principles Applied</h3>
+                    <ul class="principles-list">
+                        <li><strong>Visual Hierarchy:</strong> Clear sections guiding visitors toward booking a class</li>
+                        <li><strong>Consistency:</strong> A cohesive color, type, and spacing system across the page</li>
+                        <li><strong>Responsive Design:</strong> Fluid layouts adapting across desktop, tablet, and mobile</li>
+                        <li><strong>Accessibility:</strong> WCAG-aligned color contrast verified with WAVE</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflect Section -->
+        <section class="case-study-section">
+            <h2>Reflect</h2>
+
+            <div class="section-content">
+                <h3>What I Learned</h3>
+                <ul class="reflection-list">
+                    <li>Taking a design from Figma all the way to a responsive, coded web page</li>
+                    <li>Implementing responsive layouts that adapt cleanly across breakpoints</li>
+                    <li>Using WAVE to identify and resolve real accessibility issues</li>
+                </ul>
+
+                <h3>Next Steps</h3>
+                <p>If I were to continue this project, I would focus on:</p>
+                <ul class="reflection-list">
+                    <li>Building out additional pages (classes, schedule, and booking)</li>
+                    <li>Adding a working class-booking form and interactivity</li>
+                    <li>Further accessibility testing with keyboard navigation and screen readers</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="back-to-projects">
+            <a href="../projects.html" class="back-btn">← Back to Projects</a>
+        </section>
+
+    </div>
 
     <!-- Footer -->
     <section class="footer-area">
         <div class="footer-left">
             <div class="footer-logo">
-                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/kateyang1998/kateyang@main/images/ky-logo.png" alt="Kate Yang Logo" class="footer-logo-img">
             </div>
             <p class="copyright">&copy; Copyright by Kate Yang 2026</p>
         </div>
