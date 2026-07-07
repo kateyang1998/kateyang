@@ -30,11 +30,16 @@ kateyang.github.io/
 │   ├── redesign-youtube.html   # YouTube Music App redesign case study
 │   ├── smarthome-app.html      # Smart Home Mobile App case study
 │   ├── k-studio.html           # K Studio case study
-│   ├── medical-app.html        # Medical App case study
+│   ├── bakery-shop.html        # Kate's Bakery Shop case study
 │   ├── recipe-app.html         # Recipe App case study
-│   ├── bakery-shop.html        # Bakery Shop case study
+│   ├── medical-app.html        # Medical App case study
 │   ├── college-website.html    # College Website case study
-│   └── renovation-website.html # Renovation Website case study
+│   ├── renovation-website.html # Renovation Consultant Website case study
+│   ├── yoga-studio.html        # Serenity Yoga Studio Website case study
+│   ├── sweet-shop.html         # Kate's Sweet Shop Website case study
+│   └── jk-collective.html      # JK Collective Inc. Company Website case study
+├── case-study-images/          # Case study visuals (personas, wireframes, prototypes, logos)
+├── case-study-resources/       # Source reports/PDFs referenced by case studies
 ├── styles/
 │   ├── main.css            # Core styles and responsive design
 │   ├── projects.css        # Project-specific styling
@@ -96,9 +101,9 @@ kateyang.github.io/
 - **Animations**: Staggered loading effects for each section
 
 ### Projects (projects.html)
-- **UX Design Projects**: 8 comprehensive case studies with images and descriptions
+- **UX Design Projects**: 11 projects spanning mobile apps and websites, each with images and descriptions
 - **Project Cards**: Numbered system with project type, team info, and preview images
-- **Case Study Links**: Direct links to detailed case study pages
+- **Case Study Links**: Direct links to detailed case study pages for every project
 - **Interactive Images**: Hover effects with smooth transitions
 
 ### Gallery (gallery.html)
@@ -108,10 +113,11 @@ kateyang.github.io/
 - **Smooth Animations**: Staggered loading with hover interactions
 
 ### Case Study Pages
-Comprehensive case studies following the design thinking process:
-- **YouTube Music Redesign**: Mobile app UX improvements
-- **Smart Home App**: IoT home automation interface
-- Structured sections: Project Overview, Empathize, Define, Ideate, Prototype, Test, Final Solution, Reflect
+Eleven comprehensive case studies, most following the design thinking process (Project Overview, Empathize, Define, Ideate, Prototype, Final Solution, Reflect):
+- **Mobile App UX**: K Studio, Kate's Bakery Shop, Recipe App, Medical App, Smart Home App, and the YouTube Music Redesign
+- **Website & Brand**: College Website and Renovation Consultant Website (research, logo/brand design, and prototypes)
+- **Design & Build**: Serenity Yoga Studio (responsive, WCAG-accessible landing page) and JK Collective Inc. (a live company site designed in Figma and built with React/Vite)
+- **Design System**: Kate's Sweet Shop, centered on a full design system — foundation styles and reusable components
 
 ## 🛠️ Technologies Used
 
@@ -193,16 +199,16 @@ Visit the live portfolio at: [https://kateyang1998.github.io/kateyang/](https://
 - [ ] Add blog section for technical articles
 - [ ] Implement dark mode toggle
 - [ ] Add contact form with backend integration
-- [ ] Complete remaining case study pages
+- [x] Complete case study pages for all projects
 - [ ] Add loading animations and skeleton screens
 - [ ] Implement service worker for offline functionality
 - [ ] Add animation preferences (prefers-reduced-motion support)
 
 ## 👩‍💻 About Kate Yang
 
-Software Developer and UX Designer passionate about creating innovative solutions and exceptional user experiences. Currently studying IT Innovation and Design at Conestoga College, with professional experience at Conestoga SMART Centre and Magenta Health Inc.
+Software Developer and UX Designer passionate about creating innovative solutions and exceptional user experiences. Co-Founder of JK Collective Inc., a web and software development company, with prior professional experience as a Co-op Software Developer at Conestoga SMART Centre and Magenta Health Inc. (contributing to the OSCAR EMR healthcare application).
 
-**Skills**: Java, C#, HTML5, CSS3, JavaScript, React, UX Design, Figma, Adobe Creative Suite
+**Skills**: Java, C#, HTML5, CSS3, JavaScript, React, Node.js, Express.js, Vite, SQL, MySQL, PostgreSQL, UX Design, Design Systems, Figma, Adobe Creative Suite
 
 ## 📄 License
 
